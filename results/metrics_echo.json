@@ -1,0 +1,5932 @@
+{
+  "run": {
+    "timestamp": "2026-09-03T01:13:07.869402+00:00",
+    "backend": "echo-top-1",
+    "retriever": "hybrid",
+    "k": 5,
+    "snapshot": "2026-09-02",
+    "corpus_documents": 4908,
+    "seconds": 0.6,
+    "rescored": true
+  },
+  "matcher_coverage": {
+    "civic_variants_total": 5069,
+    "tier1_coordinate_keys": 1234,
+    "tier1_coordinate_variants": 1242,
+    "coord_records_missing_alleles": 678,
+    "tier2_protein_keys": 3024,
+    "tier2_protein_variants": 2620,
+    "tier3_category_variants": 1475,
+    "tier3_by_rule": {
+      "fusion": 450,
+      "expression": 392,
+      "any_mutation": 309,
+      "copy_loss": 166,
+      "copy_gain": 73,
+      "exon": 60,
+      "wildtype": 11,
+      "phosphorylation": 6,
+      "methylation": 4,
+      "gof": 4
+    },
+    "tier3_satisfiable_by_small_variant": 373,
+    "reachable_by_any_tier": 4204,
+    "unreachable": 865
+  },
+  "arm1_retrieval": {
+    "structured": {
+      "recall@1": {
+        "numerator": 882,
+        "denominator": 919,
+        "point": 0.9597388465723613,
+        "low": 0.9449990644850704,
+        "high": 0.9706511719901968
+      },
+      "recall@5": {
+        "numerator": 918,
+        "denominator": 919,
+        "point": 0.998911860718172,
+        "low": 0.99386224741519,
+        "high": 0.9998078908662535
+      },
+      "recall@10": {
+        "numerator": 919,
+        "denominator": 919,
+        "point": 1.0,
+        "low": 0.9958373577760596,
+        "high": 0.9999999999999998
+      },
+      "returned_nothing": {
+        "numerator": 0,
+        "denominator": 919,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.004162642223940181
+      }
+    },
+    "lexical": {
+      "recall@1": {
+        "numerator": 823,
+        "denominator": 919,
+        "point": 0.8955386289445049,
+        "low": 0.8740900539553338,
+        "high": 0.9136942323375884
+      },
+      "recall@5": {
+        "numerator": 864,
+        "denominator": 919,
+        "point": 0.940152339499456,
+        "low": 0.9229067774504451,
+        "high": 0.9537335081217339
+      },
+      "recall@10": {
+        "numerator": 871,
+        "denominator": 919,
+        "point": 0.9477693144722524,
+        "low": 0.9314300554159586,
+        "high": 0.9603807666185323
+      },
+      "returned_nothing": {
+        "numerator": 0,
+        "denominator": 919,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.004162642223940181
+      }
+    },
+    "hybrid": {
+      "recall@1": {
+        "numerator": 882,
+        "denominator": 919,
+        "point": 0.9597388465723613,
+        "low": 0.9449990644850704,
+        "high": 0.9706511719901968
+      },
+      "recall@5": {
+        "numerator": 918,
+        "denominator": 919,
+        "point": 0.998911860718172,
+        "low": 0.99386224741519,
+        "high": 0.9998078908662535
+      },
+      "recall@10": {
+        "numerator": 919,
+        "denominator": 919,
+        "point": 1.0,
+        "low": 0.9958373577760596,
+        "high": 0.9999999999999998
+      },
+      "returned_nothing": {
+        "numerator": 0,
+        "denominator": 919,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.004162642223940181
+      }
+    }
+  },
+  "arm3a_assertion_agreement": {
+    "n": 29,
+    "answer_rate": {
+      "numerator": 29,
+      "denominator": 29,
+      "point": 1.0,
+      "low": 0.8830302014517819,
+      "high": 0.9999999999999998
+    },
+    "abstention_rate": {
+      "numerator": 0,
+      "denominator": 29,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.11696979854821798
+    },
+    "agreement_rate": {
+      "numerator": 13,
+      "denominator": 29,
+      "point": 0.4482758620689655,
+      "low": 0.28413168019756707,
+      "high": 0.6245203679281107
+    },
+    "contradiction_rate": {
+      "numerator": 1,
+      "denominator": 29,
+      "point": 0.034482758620689655,
+      "low": 0.006113214290748945,
+      "high": 0.17175521884035055
+    },
+    "hedge_rate": {
+      "numerator": 15,
+      "denominator": 29,
+      "point": 0.5172413793103449,
+      "low": 0.3443102187836894,
+      "high": 0.6861390985077515
+    },
+    "agreement_given_answered": {
+      "numerator": 13,
+      "denominator": 29,
+      "point": 0.4482758620689655,
+      "low": 0.28413168019756707,
+      "high": 0.6245203679281107
+    },
+    "net_benefit_per_100": 41.38,
+    "citation_validity": {
+      "numerator": 29,
+      "denominator": 29,
+      "point": 1.0,
+      "low": 0.8830302014517819,
+      "high": 0.9999999999999998
+    },
+    "outputs_with_invalid_citation": {
+      "numerator": 0,
+      "denominator": 29,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.11696979854821798
+    },
+    "unparseable": 0,
+    "records": [
+      {
+        "gene": "VHL",
+        "protein_change": "R167Q",
+        "label": "PATHOGENIC",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID4913"
+        ],
+        "available": [
+          "EID4913",
+          "EID5062",
+          "EID5264",
+          "EID5354",
+          "EID5381"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "L858R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID2994"
+        ],
+        "available": [
+          "EID2994",
+          "EID2997",
+          "EID11219",
+          "EID11239",
+          "EID11240"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "L858R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID2994"
+        ],
+        "available": [
+          "EID2994",
+          "EID2997",
+          "EID11219",
+          "EID11239",
+          "EID11240"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600E",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID1409"
+        ],
+        "available": [
+          "EID1409",
+          "EID3017",
+          "EID9851",
+          "EID12016",
+          "EID12161"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ACVR1",
+        "protein_change": "G328V",
+        "label": "POSITIVE",
+        "predicted": "POSITIVE",
+        "verdict": "agree",
+        "citations": [
+          "EID6955"
+        ],
+        "available": [
+          "EID6955",
+          "EID10011",
+          "EID10014",
+          "EID4845",
+          "EID4846"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600E",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID1409"
+        ],
+        "available": [
+          "EID1409",
+          "EID3017",
+          "EID9851",
+          "EID12016",
+          "EID12161"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID93"
+        ],
+        "available": [
+          "EID93",
+          "EID1399",
+          "EID1410",
+          "EID2505",
+          "EID2506"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID93"
+        ],
+        "available": [
+          "EID93",
+          "EID1399",
+          "EID1410",
+          "EID2505",
+          "EID2506"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "E70K",
+        "label": "LIKELY_PATHOGENIC",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID5273"
+        ],
+        "available": [
+          "EID5273",
+          "EID5780",
+          "EID5805",
+          "EID6503",
+          "EID6742"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "F76DEL C.227_229DEL",
+        "label": "PATHOGENIC",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID4919"
+        ],
+        "available": [
+          "EID4919",
+          "EID5203",
+          "EID5340",
+          "EID5386",
+          "EID5426"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q195*",
+        "label": "PATHOGENIC",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID4987"
+        ],
+        "available": [
+          "EID4987",
+          "EID5097",
+          "EID5134",
+          "EID5360",
+          "EID5404"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600E",
+        "label": "POOR_OUTCOME",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID1409"
+        ],
+        "available": [
+          "EID1409",
+          "EID3017",
+          "EID9851",
+          "EID12016",
+          "EID12161"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L184P",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID4943"
+        ],
+        "available": [
+          "EID4943",
+          "EID5055",
+          "EID6027",
+          "EID6119",
+          "EID6167"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "S249C",
+        "label": "ONCOGENIC",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID1603"
+        ],
+        "available": [
+          "EID1603",
+          "EID12703",
+          "EID13162",
+          "EID4871",
+          "EID7941"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "D816V",
+        "label": "RESISTANCE",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID26"
+        ],
+        "available": [
+          "EID26",
+          "EID1725",
+          "EID1726",
+          "EID11158",
+          "EID11160"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PAX5",
+        "protein_change": "P80R",
+        "label": "POSITIVE",
+        "predicted": "POSITIVE",
+        "verdict": "agree",
+        "citations": [
+          "EID7290"
+        ],
+        "available": [
+          "EID7290",
+          "EID7291",
+          "EID11519",
+          "EID12867",
+          "EID12869"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "L858R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID2994"
+        ],
+        "available": [
+          "EID2994",
+          "EID2997",
+          "EID11219",
+          "EID11239",
+          "EID11240"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "T790M",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID238"
+        ],
+        "available": [
+          "EID238",
+          "EID1592",
+          "EID1867",
+          "EID11598",
+          "EID11599"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "MYOD1",
+        "protein_change": "L122R",
+        "label": "POSITIVE",
+        "predicted": "POSITIVE",
+        "verdict": "agree",
+        "citations": [
+          "EID8193"
+        ],
+        "available": [
+          "EID8193",
+          "EID8194",
+          "EID8313",
+          "EID9532",
+          "EID11582"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "RET",
+        "protein_change": "M918T",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID12598"
+        ],
+        "available": [
+          "EID12598",
+          "EID78",
+          "EID1365",
+          "EID7710",
+          "EID12800"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "RET",
+        "protein_change": "M918T",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID12598"
+        ],
+        "available": [
+          "EID12598",
+          "EID78",
+          "EID1365",
+          "EID7710",
+          "EID12800"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "H3-3A",
+        "protein_change": "G35W",
+        "label": "POSITIVE",
+        "predicted": "POSITIVE",
+        "verdict": "agree",
+        "citations": [
+          "EID6469"
+        ],
+        "available": [
+          "EID6469",
+          "EID12749",
+          "EID12750",
+          "EID7189",
+          "EID13177"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "HRAS",
+        "protein_change": "G13R",
+        "label": "ONCOGENIC",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID9632"
+        ],
+        "available": [
+          "EID9632",
+          "EID9633",
+          "EID11681",
+          "EID11696",
+          "EID699"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "MAP2K1",
+        "protein_change": "P124S",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "RESISTANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID12"
+        ],
+        "available": [
+          "EID12",
+          "EID12986",
+          "EID13",
+          "EID1602",
+          "EID1661"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ARAF",
+        "protein_change": "S214F",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "GAIN_OF_FUNCTION",
+        "verdict": "hedge",
+        "citations": [
+          "EID12972"
+        ],
+        "available": [
+          "EID12972",
+          "EID11146",
+          "EID41",
+          "EID40",
+          "EID1905"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "RAF1",
+        "protein_change": "S257L",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "ONCOGENICITY",
+        "verdict": "agree",
+        "citations": [
+          "EID12991"
+        ],
+        "available": [
+          "EID12991",
+          "EID13152",
+          "EID9021",
+          "EID1496",
+          "EID8374"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "G292R",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID12119"
+        ],
+        "available": [
+          "EID12119",
+          "EID11731",
+          "EID12530",
+          "EID12808",
+          "EID5338"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "V777L",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID11690"
+        ],
+        "available": [
+          "EID11690",
+          "EID288",
+          "EID1177",
+          "EID4452",
+          "EID9697"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "H3C2",
+        "protein_change": "K27M",
+        "label": "ONCOGENIC",
+        "predicted": "POSITIVE",
+        "verdict": "hedge",
+        "citations": [
+          "EID9546"
+        ],
+        "available": [
+          "EID9546",
+          "EID13177",
+          "EID9583",
+          "EID10605",
+          "EID11038"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      }
+    ],
+    "answers_outside_civic_vocabulary": {
+      "numerator": 1,
+      "denominator": 29,
+      "point": 0.034482758620689655,
+      "low": 0.006113214290748945,
+      "high": 0.17175521884035055
+    }
+  },
+  "arm3b_leave_one_out_agreement": {
+    "n": 156,
+    "answer_rate": {
+      "numerator": 156,
+      "denominator": 156,
+      "point": 1.0,
+      "low": 0.9759670685515763,
+      "high": 0.9999999999999998
+    },
+    "abstention_rate": {
+      "numerator": 0,
+      "denominator": 156,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0240329314484235
+    },
+    "agreement_rate": {
+      "numerator": 78,
+      "denominator": 156,
+      "point": 0.5,
+      "low": 0.4224872083968983,
+      "high": 0.5775127916031018
+    },
+    "contradiction_rate": {
+      "numerator": 20,
+      "denominator": 156,
+      "point": 0.1282051282051282,
+      "low": 0.08454799298896473,
+      "high": 0.18973290475473475
+    },
+    "hedge_rate": {
+      "numerator": 58,
+      "denominator": 156,
+      "point": 0.3717948717948718,
+      "low": 0.2998913002772022,
+      "high": 0.44986073342752175
+    },
+    "agreement_given_answered": {
+      "numerator": 78,
+      "denominator": 156,
+      "point": 0.5,
+      "low": 0.4224872083968983,
+      "high": 0.5775127916031018
+    },
+    "net_benefit_per_100": 37.18,
+    "citation_validity": {
+      "numerator": 156,
+      "denominator": 156,
+      "point": 1.0,
+      "low": 0.9759670685515763,
+      "high": 0.9999999999999998
+    },
+    "outputs_with_invalid_citation": {
+      "numerator": 0,
+      "denominator": 156,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0240329314484235
+    },
+    "unparseable": 0,
+    "records": [
+      {
+        "gene": "AKT1",
+        "protein_change": "E17K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID709"
+        ],
+        "available": [
+          "EID709",
+          "EID707",
+          "EID4029",
+          "EID231",
+          "EID12020"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ALK",
+        "protein_change": "F1174L",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID32"
+        ],
+        "available": [
+          "EID32",
+          "EID33",
+          "EID37",
+          "EID38",
+          "EID125"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ALK",
+        "protein_change": "R1275Q",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID1269"
+        ],
+        "available": [
+          "EID1269",
+          "EID1270",
+          "EID39",
+          "EID48",
+          "EID143"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ARAF",
+        "protein_change": "S214C",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID17"
+        ],
+        "available": [
+          "EID17",
+          "EID40",
+          "EID11147",
+          "EID1905",
+          "EID11148"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600D",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID7616"
+        ],
+        "available": [
+          "EID7616",
+          "EID7629",
+          "EID4488",
+          "EID4489",
+          "EID2187"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600E",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID1409"
+        ],
+        "available": [
+          "EID1409",
+          "EID3017",
+          "EID9851",
+          "EID12016",
+          "EID12161"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "L858R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID2994"
+        ],
+        "available": [
+          "EID2994",
+          "EID2997",
+          "EID11219",
+          "EID11239",
+          "EID11240"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "T790M",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID238"
+        ],
+        "available": [
+          "EID238",
+          "EID1592",
+          "EID1867",
+          "EID11598",
+          "EID11599"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "D769Y",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID11688"
+        ],
+        "available": [
+          "EID11688",
+          "EID280",
+          "EID11731",
+          "EID12530",
+          "EID12808"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "L755S",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID4955"
+        ],
+        "available": [
+          "EID4955",
+          "EID241",
+          "EID283",
+          "EID3004",
+          "EID4519"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "R678Q",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID13138"
+        ],
+        "available": [
+          "EID13138",
+          "EID13139",
+          "EID13140",
+          "EID11731",
+          "EID12530"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "V777L",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID288"
+        ],
+        "available": [
+          "EID288",
+          "EID1177",
+          "EID4452",
+          "EID9697",
+          "EID11731"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ESR1",
+        "protein_change": "D538G",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID243"
+        ],
+        "available": [
+          "EID243",
+          "EID291",
+          "EID11443",
+          "EID12045",
+          "EID246"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "IDH1",
+        "protein_change": "R132C",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID11508"
+        ],
+        "available": [
+          "EID11508",
+          "EID224",
+          "EID2327",
+          "EID2331",
+          "EID324"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "IDH2",
+        "protein_change": "R172K",
+        "label": "POOR_OUTCOME",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID11509"
+        ],
+        "available": [
+          "EID11509",
+          "EID331",
+          "EID332",
+          "EID5069",
+          "EID11708"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "JAK2",
+        "protein_change": "V617F",
+        "label": "POSITIVE",
+        "predicted": "NEGATIVE",
+        "verdict": "contradict",
+        "citations": [
+          "EID1"
+        ],
+        "available": [
+          "EID1",
+          "EID5",
+          "EID6",
+          "EID19",
+          "EID20"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "D816V",
+        "label": "RESISTANCE",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID26"
+        ],
+        "available": [
+          "EID26",
+          "EID1725",
+          "EID1726",
+          "EID11158",
+          "EID11160"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "L576P",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID34"
+        ],
+        "available": [
+          "EID34",
+          "EID42",
+          "EID303",
+          "EID4141",
+          "EID1222"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12C",
+        "label": "RESISTANCE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "contradict",
+        "citations": [
+          "EID9431"
+        ],
+        "available": [
+          "EID9431",
+          "EID12063",
+          "EID12264",
+          "EID227",
+          "EID1142"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12D",
+        "label": "RESISTANCE",
+        "predicted": "POSITIVE",
+        "verdict": "hedge",
+        "citations": [
+          "EID228"
+        ],
+        "available": [
+          "EID228",
+          "EID1215",
+          "EID1300",
+          "EID1311",
+          "EID1732"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G13D",
+        "label": "RESISTANCE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "contradict",
+        "citations": [
+          "EID306"
+        ],
+        "available": [
+          "EID306",
+          "EID1181",
+          "EID3881",
+          "EID3882",
+          "EID806"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "NPM1",
+        "protein_change": "W288FS",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "BETTER_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID109"
+        ],
+        "available": [
+          "EID109",
+          "EID153",
+          "EID108",
+          "EID12494",
+          "EID12495"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PDGFRA",
+        "protein_change": "D842V",
+        "label": "RESISTANCE",
+        "predicted": "NEGATIVE",
+        "verdict": "hedge",
+        "citations": [
+          "EID2"
+        ],
+        "available": [
+          "EID2",
+          "EID15",
+          "EID16",
+          "EID738",
+          "EID2478"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "E542K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID7315"
+        ],
+        "available": [
+          "EID7315",
+          "EID12535",
+          "EID83",
+          "EID6191",
+          "EID1549"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "E545K",
+        "label": "RESISTANCE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "contradict",
+        "citations": [
+          "EID7468"
+        ],
+        "available": [
+          "EID7468",
+          "EID12534",
+          "EID2106",
+          "EID6191",
+          "EID387"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "H1047R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID7318"
+        ],
+        "available": [
+          "EID7318",
+          "EID12533",
+          "EID2097",
+          "EID2100",
+          "EID3047"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "RET",
+        "protein_change": "M918T",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID78"
+        ],
+        "available": [
+          "EID78",
+          "EID1365",
+          "EID7710",
+          "EID12800",
+          "EID6950"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R175H",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID389"
+        ],
+        "available": [
+          "EID389",
+          "EID2310",
+          "EID7540",
+          "EID4880",
+          "EID10074"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R248Q",
+        "label": "POOR_OUTCOME",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "agree",
+        "citations": [
+          "EID391"
+        ],
+        "available": [
+          "EID391",
+          "EID3042",
+          "EID7115",
+          "EID7161",
+          "EID7525"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R248W",
+        "label": "POOR_OUTCOME",
+        "predicted": "RESISTANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID4879"
+        ],
+        "available": [
+          "EID4879",
+          "EID10261",
+          "EID1507",
+          "EID393",
+          "EID517"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R273C",
+        "label": "POOR_OUTCOME",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "agree",
+        "citations": [
+          "EID395"
+        ],
+        "available": [
+          "EID395",
+          "EID12732",
+          "EID2292",
+          "EID4881",
+          "EID10256"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R273H",
+        "label": "RESISTANCE",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID397"
+        ],
+        "available": [
+          "EID397",
+          "EID398",
+          "EID4882",
+          "EID7530",
+          "EID1507"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "U2AF1",
+        "protein_change": null,
+        "label": "NA",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID400"
+        ],
+        "available": [
+          "EID400",
+          "EID338",
+          "EID1262",
+          "EID340",
+          "EID401"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "G719S",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID1736"
+        ],
+        "available": [
+          "EID1736",
+          "EID274",
+          "EID787",
+          "EID12522",
+          "EID12523"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12A",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID251"
+        ],
+        "available": [
+          "EID251",
+          "EID2008",
+          "EID2009",
+          "EID4429",
+          "EID6319"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "AKT1",
+        "protein_change": "Q79K",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID6260"
+        ],
+        "available": [
+          "EID6260",
+          "EID439",
+          "EID12020",
+          "EID12075",
+          "EID4029"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "M541L",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "POSITIVE",
+        "verdict": "hedge",
+        "citations": [
+          "EID485"
+        ],
+        "available": [
+          "EID485",
+          "EID1423",
+          "EID1222",
+          "EID919",
+          "EID58"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "NT5C2",
+        "protein_change": "R367Q",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID7812"
+        ],
+        "available": [
+          "EID7812",
+          "EID630",
+          "EID633",
+          "EID7815",
+          "EID7818"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "NT5C2",
+        "protein_change": "K359Q",
+        "label": "POOR_OUTCOME",
+        "predicted": "RESISTANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID631"
+        ],
+        "available": [
+          "EID631",
+          "EID636",
+          "EID7818",
+          "EID633",
+          "EID635"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "MTHFR",
+        "protein_change": "A222V",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID669"
+        ],
+        "available": [
+          "EID669",
+          "EID1756"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "HRAS",
+        "protein_change": "G13D",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID3851"
+        ],
+        "available": [
+          "EID3851",
+          "EID3852",
+          "EID9632",
+          "EID9633",
+          "EID11681"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "SMO",
+        "protein_change": "D473H",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID745"
+        ],
+        "available": [
+          "EID745",
+          "EID1099",
+          "EID746",
+          "EID1477",
+          "EID5979"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "MYD88",
+        "protein_change": "L265P",
+        "label": "BETTER_OUTCOME",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID986"
+        ],
+        "available": [
+          "EID986",
+          "EID1641",
+          "EID734",
+          "EID12255"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12V",
+        "label": "RESISTANCE",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID987"
+        ],
+        "available": [
+          "EID987",
+          "EID1143",
+          "EID2219",
+          "EID2232",
+          "EID2268"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "NRAS",
+        "protein_change": "Q61K",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID2189"
+        ],
+        "available": [
+          "EID2189",
+          "EID8933",
+          "EID1002",
+          "EID1475",
+          "EID2192"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "S492R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID717"
+        ],
+        "available": [
+          "EID717",
+          "EID1078",
+          "EID1080",
+          "EID12522",
+          "EID12523"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "ALK",
+        "protein_change": "I1171T",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID1283"
+        ],
+        "available": [
+          "EID1283",
+          "EID1284",
+          "EID1367",
+          "EID9404",
+          "EID1285"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12R",
+        "label": "RESISTANCE",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID1298"
+        ],
+        "available": [
+          "EID1298",
+          "EID2264",
+          "EID3987",
+          "EID3991",
+          "EID2998"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "S768I",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID11229"
+        ],
+        "available": [
+          "EID11229",
+          "EID1395",
+          "EID4273",
+          "EID2906",
+          "EID4274"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID93"
+        ],
+        "available": [
+          "EID93",
+          "EID1399",
+          "EID1410",
+          "EID2505",
+          "EID2506"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "L597Q",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID4905"
+        ],
+        "available": [
+          "EID4905",
+          "EID1461",
+          "EID2187",
+          "EID6302",
+          "EID6303"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "D594G",
+        "label": "POOR_OUTCOME",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "agree",
+        "citations": [
+          "EID1553"
+        ],
+        "available": [
+          "EID1553",
+          "EID4472",
+          "EID1554",
+          "EID2201",
+          "EID6001"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "S249C",
+        "label": "ONCOGENICITY",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID1603"
+        ],
+        "available": [
+          "EID1603",
+          "EID12703",
+          "EID13162",
+          "EID4871",
+          "EID7941"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PTEN",
+        "protein_change": "R173C",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "ONCOGENICITY",
+        "verdict": "hedge",
+        "citations": [
+          "EID1934"
+        ],
+        "available": [
+          "EID1934",
+          "EID1935",
+          "EID12020",
+          "EID12075",
+          "EID12602"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "GNAS",
+        "protein_change": "I131=",
+        "label": "BETTER_OUTCOME",
+        "predicted": "RESISTANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID1995"
+        ],
+        "available": [
+          "EID1995",
+          "EID1996",
+          "EID1997",
+          "EID2892",
+          "EID2893"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "G245S",
+        "label": "DOMINANT_NEGATIVE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID12732"
+        ],
+        "available": [
+          "EID12732",
+          "EID4883",
+          "EID10253",
+          "EID10532",
+          "EID1507"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "A146T",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID3858"
+        ],
+        "available": [
+          "EID3858",
+          "EID2206",
+          "EID12947",
+          "EID2998",
+          "EID5345"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "Q61H",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID3861"
+        ],
+        "available": [
+          "EID3861",
+          "EID7936",
+          "EID2998",
+          "EID5345",
+          "EID999"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12S",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID2273"
+        ],
+        "available": [
+          "EID2273",
+          "EID4006",
+          "EID2269",
+          "EID6314",
+          "EID2277"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "Y220C",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID4884"
+        ],
+        "available": [
+          "EID4884",
+          "EID7107",
+          "EID7527",
+          "EID1507",
+          "EID393"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "C420R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID11275"
+        ],
+        "available": [
+          "EID11275",
+          "EID12539",
+          "EID1999",
+          "EID8549",
+          "EID2346"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PDGFRA",
+        "protein_change": "V561D",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID2454"
+        ],
+        "available": [
+          "EID2454",
+          "EID4056",
+          "EID5347",
+          "EID2487",
+          "EID16"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "V559D",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID3029"
+        ],
+        "available": [
+          "EID3029",
+          "EID4459",
+          "EID1222",
+          "EID919",
+          "EID58"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "V560D",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID4122"
+        ],
+        "available": [
+          "EID4122",
+          "EID4127",
+          "EID4077",
+          "EID1222",
+          "EID919"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "K642E",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID4147"
+        ],
+        "available": [
+          "EID4147",
+          "EID7397",
+          "EID2472",
+          "EID1222",
+          "EID919"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "D820Y",
+        "label": "RESISTANCE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "contradict",
+        "citations": [
+          "EID4589"
+        ],
+        "available": [
+          "EID4589",
+          "EID2888",
+          "EID1222",
+          "EID919",
+          "EID58"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "H1047L",
+        "label": "RESISTANCE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "contradict",
+        "citations": [
+          "EID7318"
+        ],
+        "available": [
+          "EID7318",
+          "EID12533",
+          "EID3047",
+          "EID2089",
+          "EID8009"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "K111N",
+        "label": "RESISTANCE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "contradict",
+        "citations": [
+          "EID12536"
+        ],
+        "available": [
+          "EID12536",
+          "EID2085",
+          "EID8011",
+          "EID8020",
+          "EID8274"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "N822K",
+        "label": "RESISTANCE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "contradict",
+        "citations": [
+          "EID4595"
+        ],
+        "available": [
+          "EID4595",
+          "EID4169",
+          "EID7379",
+          "EID7414",
+          "EID2448"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "T670I",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID4510"
+        ],
+        "available": [
+          "EID4510",
+          "EID7416",
+          "EID7417",
+          "EID1222",
+          "EID919"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "CTNNB1",
+        "protein_change": "T41A",
+        "label": "POSITIVE",
+        "predicted": "POSITIVE",
+        "verdict": "agree",
+        "citations": [
+          "EID2973"
+        ],
+        "available": [
+          "EID2973",
+          "EID3044",
+          "EID2988",
+          "EID5071",
+          "EID5072"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "CTNNB1",
+        "protein_change": "S45F",
+        "label": "POOR_OUTCOME",
+        "predicted": "POSITIVE",
+        "verdict": "hedge",
+        "citations": [
+          "EID2974"
+        ],
+        "available": [
+          "EID2974",
+          "EID2976",
+          "EID5071",
+          "EID6049",
+          "EID2988"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "CTNNB1",
+        "protein_change": "S45P",
+        "label": "POSITIVE",
+        "predicted": "POSITIVE",
+        "verdict": "agree",
+        "citations": [
+          "EID2975"
+        ],
+        "available": [
+          "EID2975",
+          "EID3043",
+          "EID2988",
+          "EID5070",
+          "EID5071"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FLT3",
+        "protein_change": "D835V",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID4022"
+        ],
+        "available": [
+          "EID4022",
+          "EID3007",
+          "EID3009",
+          "EID3010",
+          "EID3034"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "K650E",
+        "label": "GAIN_OF_FUNCTION",
+        "predicted": "GAIN_OF_FUNCTION",
+        "verdict": "hedge",
+        "citations": [
+          "EID10381"
+        ],
+        "available": [
+          "EID10381",
+          "EID10493",
+          "EID10355",
+          "EID7422",
+          "EID1910"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R158H",
+        "label": "DOMINANT_NEGATIVE",
+        "predicted": "RESISTANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID4886"
+        ],
+        "available": [
+          "EID4886",
+          "EID10237",
+          "EID1507",
+          "EID393",
+          "EID517"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R249S",
+        "label": "DOMINANT_NEGATIVE",
+        "predicted": "RESISTANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID4888"
+        ],
+        "available": [
+          "EID4888",
+          "EID7116",
+          "EID1507",
+          "EID393",
+          "EID517"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L158P",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4938"
+        ],
+        "available": [
+          "EID4938",
+          "EID5103",
+          "EID5281",
+          "EID6613",
+          "EID418"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R167Q",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID4913"
+        ],
+        "available": [
+          "EID4913",
+          "EID5062",
+          "EID5264",
+          "EID5354",
+          "EID5381"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Y98H",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID7645"
+        ],
+        "available": [
+          "EID7645",
+          "EID4906",
+          "EID4967",
+          "EID5418",
+          "EID5451"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4908"
+        ],
+        "available": [
+          "EID4908",
+          "EID5436",
+          "EID5454",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "T157I",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4910"
+        ],
+        "available": [
+          "EID4910",
+          "EID6581",
+          "EID6612",
+          "EID8988",
+          "EID418"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R161Q",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4911"
+        ],
+        "available": [
+          "EID4911",
+          "EID5061",
+          "EID5125",
+          "EID5179",
+          "EID5400"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R167W",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4912"
+        ],
+        "available": [
+          "EID4912",
+          "EID5052",
+          "EID5184",
+          "EID5265",
+          "EID5382"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L178P",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID4914"
+        ],
+        "available": [
+          "EID4914",
+          "EID5149",
+          "EID5198",
+          "EID5470",
+          "EID7004"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q73*",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4918"
+        ],
+        "available": [
+          "EID4918",
+          "EID5270",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "N78H",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4920"
+        ],
+        "available": [
+          "EID4920",
+          "EID5130",
+          "EID5341",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "N78S",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID4921"
+        ],
+        "available": [
+          "EID4921",
+          "EID5020",
+          "EID5027",
+          "EID5250",
+          "EID5376"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5157"
+        ],
+        "available": [
+          "EID5157",
+          "EID8973",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "W117C",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4933"
+        ],
+        "available": [
+          "EID4933",
+          "EID5044",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "C162R",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4939"
+        ],
+        "available": [
+          "EID4939",
+          "EID5349",
+          "EID8989",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "C162F",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4940"
+        ],
+        "available": [
+          "EID4940",
+          "EID5050",
+          "EID6584",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "C162W",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5267"
+        ],
+        "available": [
+          "EID5267",
+          "EID5355",
+          "EID6585",
+          "EID6616",
+          "EID7895"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L184P",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4943"
+        ],
+        "available": [
+          "EID4943",
+          "EID5055",
+          "EID6027",
+          "EID6119",
+          "EID6167"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID5154"
+        ],
+        "available": [
+          "EID5154",
+          "EID5461",
+          "EID6609",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S183*",
+        "label": "PREDISPOSITION",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID5370"
+        ],
+        "available": [
+          "EID5370",
+          "EID6592",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S65W",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4917"
+        ],
+        "available": [
+          "EID4917",
+          "EID4958",
+          "EID4998",
+          "EID5026",
+          "EID5034"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S65L",
+        "label": "NA",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID4959"
+        ],
+        "available": [
+          "EID4959",
+          "EID5104",
+          "EID5159",
+          "EID5287",
+          "EID5499"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L89P",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID4965"
+        ],
+        "available": [
+          "EID4965",
+          "EID5150",
+          "EID5368",
+          "EID5449",
+          "EID418"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "E94*",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5137"
+        ],
+        "available": [
+          "EID5137",
+          "EID5405",
+          "EID5550",
+          "EID5561",
+          "EID5771"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R113*",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5043"
+        ],
+        "available": [
+          "EID5043",
+          "EID5177",
+          "EID5260",
+          "EID5352",
+          "EID6602"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L118P",
+        "label": "ONCOGENICITY",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID4971"
+        ],
+        "available": [
+          "EID4971",
+          "EID5143",
+          "EID5276",
+          "EID5435",
+          "EID5477"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID4974"
+        ],
+        "available": [
+          "EID4974",
+          "EID5152",
+          "EID5202",
+          "EID5284",
+          "EID6512"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L158V",
+        "label": "PREDISPOSITION",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID4977"
+        ],
+        "available": [
+          "EID4977",
+          "EID5464",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R161*",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5049"
+        ],
+        "available": [
+          "EID5049",
+          "EID5263",
+          "EID5375",
+          "EID5483",
+          "EID5761"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q195*",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4987"
+        ],
+        "available": [
+          "EID4987",
+          "EID5097",
+          "EID5134",
+          "EID5360",
+          "EID5404"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "D121G",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5455"
+        ],
+        "available": [
+          "EID5455",
+          "EID5578",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "C162Y",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5493"
+        ],
+        "available": [
+          "EID5493",
+          "EID6615",
+          "EID8990",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "V166F",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5302"
+        ],
+        "available": [
+          "EID5302",
+          "EID8606",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "V170D",
+        "label": "PREDISPOSITION",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID5013"
+        ],
+        "available": [
+          "EID5013",
+          "EID5029",
+          "EID5092",
+          "EID5863",
+          "EID418"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "E70*",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5361"
+        ],
+        "available": [
+          "EID5361",
+          "EID5445",
+          "EID6059",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID5369"
+        ],
+        "available": [
+          "EID5369",
+          "EID6505",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q164*",
+        "label": "ONCOGENICITY",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID5051"
+        ],
+        "available": [
+          "EID5051",
+          "EID5096",
+          "EID5359",
+          "EID5403",
+          "EID418"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q96*",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5058"
+        ],
+        "available": [
+          "EID5058",
+          "EID5271",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q164R",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5133"
+        ],
+        "available": [
+          "EID5133",
+          "EID10177",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "G114R",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5305"
+        ],
+        "available": [
+          "EID5305",
+          "EID9067",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "G93S",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5100"
+        ],
+        "available": [
+          "EID5100",
+          "EID6507",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "I151T",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5101"
+        ],
+        "available": [
+          "EID5101",
+          "EID5720",
+          "EID6696",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S80N",
+        "label": "PREDISPOSITION",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID5371"
+        ],
+        "available": [
+          "EID5371",
+          "EID5415",
+          "EID5427",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L169P",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5197"
+        ],
+        "available": [
+          "EID5197",
+          "EID6589",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5158"
+        ],
+        "available": [
+          "EID5158",
+          "EID5286",
+          "EID6551",
+          "EID8972",
+          "EID8771"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R120G",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID5178"
+        ],
+        "available": [
+          "EID5178",
+          "EID6511",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "V170G",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5172"
+        ],
+        "available": [
+          "EID5172",
+          "EID6590",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Y156C",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5417"
+        ],
+        "available": [
+          "EID5417",
+          "EID5463",
+          "EID6516",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "E70K",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5273"
+        ],
+        "available": [
+          "EID5273",
+          "EID5780",
+          "EID6503",
+          "EID6742",
+          "EID6860"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "H115Q",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5274"
+        ],
+        "available": [
+          "EID5274",
+          "EID5515",
+          "EID4907",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID6513"
+        ],
+        "available": [
+          "EID6513",
+          "EID6577",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S80R",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5510"
+        ],
+        "available": [
+          "EID5510",
+          "EID5547",
+          "EID5548",
+          "EID4964",
+          "EID5448"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Y175*",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5300"
+        ],
+        "available": [
+          "EID5300",
+          "EID5440",
+          "EID7005",
+          "EID5736",
+          "EID6621"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "V74G",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID5424"
+        ],
+        "available": [
+          "EID5424",
+          "EID5446",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "DICER1",
+        "protein_change": "D1709N",
+        "label": "PREDISPOSITION",
+        "predicted": "POSITIVE",
+        "verdict": "hedge",
+        "citations": [
+          "EID5534"
+        ],
+        "available": [
+          "EID5534",
+          "EID5899",
+          "EID11480",
+          "EID5887",
+          "EID5897"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "UNCERTAIN_SIGNIFICANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID5610"
+        ],
+        "available": [
+          "EID5610",
+          "EID6514",
+          "EID6610",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "PREDISPOSITION",
+        "verdict": "hedge",
+        "citations": [
+          "EID5462"
+        ],
+        "available": [
+          "EID5462",
+          "EID5724",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "F76DEL C.227_229DEL",
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID4919"
+        ],
+        "available": [
+          "EID4919",
+          "EID5203",
+          "EID5340",
+          "EID5426",
+          "EID5447"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "PREDISPOSITION",
+        "verdict": "agree",
+        "citations": [
+          "EID5332"
+        ],
+        "available": [
+          "EID5332",
+          "EID5689",
+          "EID5845",
+          "EID6509",
+          "EID8215"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "G466V",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "agree",
+        "citations": [
+          "EID5968"
+        ],
+        "available": [
+          "EID5968",
+          "EID7552",
+          "EID7554",
+          "EID2187",
+          "EID6302"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "V555M",
+        "label": "RESISTANCE",
+        "predicted": "GAIN_OF_FUNCTION",
+        "verdict": "hedge",
+        "citations": [
+          "EID12988"
+        ],
+        "available": [
+          "EID12988",
+          "EID12989",
+          "EID12990",
+          "EID7422",
+          "EID1910"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "Y373C",
+        "label": "RESISTANCE",
+        "predicted": "POSITIVE",
+        "verdict": "hedge",
+        "citations": [
+          "EID477"
+        ],
+        "available": [
+          "EID477",
+          "EID12704",
+          "EID8881",
+          "EID7422",
+          "EID1910"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "G380R",
+        "label": "ONCOGENICITY",
+        "predicted": "GAIN_OF_FUNCTION",
+        "verdict": "hedge",
+        "citations": [
+          "EID10368"
+        ],
+        "available": [
+          "EID10368",
+          "EID10396",
+          "EID10415",
+          "EID10416",
+          "EID12847"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "H3-3A",
+        "protein_change": "K28M",
+        "label": "POSITIVE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID12695"
+        ],
+        "available": [
+          "EID12695",
+          "EID6450",
+          "EID6453",
+          "EID7601",
+          "EID10605"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "H3-3A",
+        "protein_change": "G35W",
+        "label": "POSITIVE",
+        "predicted": "POSITIVE",
+        "verdict": "agree",
+        "citations": [
+          "EID6469"
+        ],
+        "available": [
+          "EID6469",
+          "EID12750",
+          "EID7189",
+          "EID13177",
+          "EID10605"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PAX5",
+        "protein_change": "P80R",
+        "label": "POSITIVE",
+        "predicted": "POSITIVE",
+        "verdict": "agree",
+        "citations": [
+          "EID7290"
+        ],
+        "available": [
+          "EID7290",
+          "EID7291",
+          "EID12867",
+          "EID12869",
+          "EID12868"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "H3C2",
+        "protein_change": "K27M",
+        "label": "POSITIVE",
+        "predicted": "ONCOGENICITY",
+        "verdict": "hedge",
+        "citations": [
+          "EID13177"
+        ],
+        "available": [
+          "EID13177",
+          "EID9583",
+          "EID10605",
+          "EID11038",
+          "EID6453"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "NT5C2",
+        "protein_change": "R238W",
+        "label": "RESISTANCE",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID7863"
+        ],
+        "available": [
+          "EID7863",
+          "EID7813",
+          "EID7818",
+          "EID7815",
+          "EID632"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "NT5C2",
+        "protein_change": "S445F",
+        "label": "POOR_OUTCOME",
+        "predicted": "RESISTANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID7814"
+        ],
+        "available": [
+          "EID7814",
+          "EID7817",
+          "EID7818",
+          "EID7815",
+          "EID632"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PRPS1",
+        "protein_change": "L191F",
+        "label": "RESISTANCE",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "contradict",
+        "citations": [
+          "EID7911"
+        ],
+        "available": [
+          "EID7911",
+          "EID7923",
+          "EID7871",
+          "EID7910",
+          "EID7930"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PRPS1",
+        "protein_change": "N144S",
+        "label": "RESISTANCE",
+        "predicted": "RESISTANCE",
+        "verdict": "agree",
+        "citations": [
+          "EID7903"
+        ],
+        "available": [
+          "EID7903",
+          "EID7910",
+          "EID7871",
+          "EID7911",
+          "EID7923"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "PRPS1",
+        "protein_change": "A190T",
+        "label": "RESISTANCE",
+        "predicted": "POOR_OUTCOME",
+        "verdict": "hedge",
+        "citations": [
+          "EID7888"
+        ],
+        "available": [
+          "EID7888",
+          "EID7909",
+          "EID7913",
+          "EID7871",
+          "EID7910"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EZH2",
+        "protein_change": "Y646F",
+        "label": "LOSS_OF_FUNCTION",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID11220"
+        ],
+        "available": [
+          "EID11220",
+          "EID11109",
+          "EID11110",
+          "EID11111",
+          "EID6952"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FLT3",
+        "protein_change": "D835Y",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID247"
+        ],
+        "available": [
+          "EID247",
+          "EID8106",
+          "EID8108",
+          "EID11085",
+          "EID11095"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "MYOD1",
+        "protein_change": "L122R",
+        "label": "POOR_OUTCOME",
+        "predicted": "POSITIVE",
+        "verdict": "hedge",
+        "citations": [
+          "EID8193"
+        ],
+        "available": [
+          "EID8193",
+          "EID8194",
+          "EID8313",
+          "EID9532",
+          "EID11582"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FLT3",
+        "protein_change": "Y842C",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "RESISTANCE",
+        "verdict": "contradict",
+        "citations": [
+          "EID8336"
+        ],
+        "available": [
+          "EID8336",
+          "EID8337",
+          "EID8338",
+          "EID8340",
+          "EID8654"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "N540K",
+        "label": "ONCOGENICITY",
+        "predicted": "RESISTANCE",
+        "verdict": "hedge",
+        "citations": [
+          "EID12703"
+        ],
+        "available": [
+          "EID12703",
+          "EID12704",
+          "EID10084",
+          "EID10389",
+          "EID12702"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "G697C",
+        "label": "ONCOGENICITY",
+        "predicted": "GAIN_OF_FUNCTION",
+        "verdict": "hedge",
+        "citations": [
+          "EID10837"
+        ],
+        "available": [
+          "EID10837",
+          "EID10839",
+          "EID12848",
+          "EID7422",
+          "EID1910"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EZH2",
+        "protein_change": "Y646N",
+        "label": "GAIN_OF_FUNCTION",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID11220"
+        ],
+        "available": [
+          "EID11220",
+          "EID11109",
+          "EID11110",
+          "EID11111",
+          "EID9520"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      },
+      {
+        "gene": "EZH2",
+        "protein_change": "A682G",
+        "label": "ONCOGENICITY",
+        "predicted": "SENSITIVITYRESPONSE",
+        "verdict": "hedge",
+        "citations": [
+          "EID11220"
+        ],
+        "available": [
+          "EID11220",
+          "EID11109",
+          "EID11110",
+          "EID11111",
+          "EID12875"
+        ],
+        "abstained": false,
+        "reasoning": "Echo of the top-ranked retrieved evidence item."
+      }
+    ],
+    "answers_outside_civic_vocabulary": {
+      "numerator": 14,
+      "denominator": 156,
+      "point": 0.08974358974358974,
+      "low": 0.05421101444240136,
+      "high": 0.14499549341271534
+    }
+  },
+  "arm4_negative_controls": {
+    "easy": {
+      "n": 150,
+      "abstention_rate": {
+        "numerator": 143,
+        "denominator": 150,
+        "point": 0.9533333333333334,
+        "low": 0.9068135275868052,
+        "high": 0.9772134508424448
+      },
+      "confabulation_rate": {
+        "numerator": 7,
+        "denominator": 150,
+        "point": 0.04666666666666667,
+        "low": 0.0227865491575551,
+        "high": 0.09318647241319476
+      },
+      "examples": [
+        {
+          "gene": "MNX1",
+          "query": "7:157005552:G>A",
+          "provenance": "observed",
+          "predicted": "POSITIVE",
+          "citations": [
+            "EID12093"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "TGM3",
+          "query": "20:2312958:C>T",
+          "provenance": "observed",
+          "predicted": "RESISTANCE",
+          "citations": [
+            "EID1906"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "SPR",
+          "query": "2:72887695:G>A",
+          "provenance": "observed",
+          "predicted": "RESISTANCE",
+          "citations": [
+            "EID3832"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "IQCA1",
+          "query": "2:236392011:C>T",
+          "provenance": "observed",
+          "predicted": "NEOMORPHIC",
+          "citations": [
+            "EID11030"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "TNIK",
+          "query": "3:171138370:G>T",
+          "provenance": "observed",
+          "predicted": "POSITIVE",
+          "citations": [
+            "EID12383"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "SOX9",
+          "query": "17:72123715:C>G",
+          "provenance": "observed",
+          "predicted": "ONCOGENICITY",
+          "citations": [
+            "EID12465"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "SCP2",
+          "query": "1:52961570:C>A",
+          "provenance": "observed",
+          "predicted": "ONCOGENICITY",
+          "citations": [
+            "EID10898"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        }
+      ]
+    },
+    "hard": {
+      "n": 13,
+      "abstention_rate": {
+        "numerator": 7,
+        "denominator": 13,
+        "point": 0.5384615384615384,
+        "low": 0.2914379570986657,
+        "high": 0.7679393219446548
+      },
+      "confabulation_rate": {
+        "numerator": 6,
+        "denominator": 13,
+        "point": 0.46153846153846156,
+        "low": 0.23206067805534528,
+        "high": 0.7085620429013343
+      },
+      "examples": [
+        {
+          "gene": "ABL2",
+          "query": "1:179109010:T>C",
+          "provenance": "observed",
+          "predicted": "SENSITIVITYRESPONSE",
+          "citations": [
+            "EID10077"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "MSH6",
+          "query": "2:47806320:G>A",
+          "provenance": "observed",
+          "predicted": "ONCOGENICITY",
+          "citations": [
+            "EID1840"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "CIC",
+          "query": "19:42274467:C>T",
+          "provenance": "observed",
+          "predicted": "POSITIVE",
+          "citations": [
+            "EID11595"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "MACF1",
+          "query": "1:39429922:G>C",
+          "provenance": "observed",
+          "predicted": "SENSITIVITYRESPONSE",
+          "citations": [
+            "EID5975"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "AREG",
+          "query": "4:74450508:C>A",
+          "provenance": "observed",
+          "predicted": "RESISTANCE",
+          "citations": [
+            "EID846"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "STAT1",
+          "query": "2:190982494:G>C",
+          "provenance": "observed",
+          "predicted": "GAIN_OF_FUNCTION",
+          "citations": [
+            "EID10493"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        }
+      ]
+    },
+    "hard_constructed": {
+      "n": 150,
+      "abstention_rate": {
+        "numerator": 29,
+        "denominator": 150,
+        "point": 0.19333333333333333,
+        "low": 0.13811889169082348,
+        "high": 0.263862858195272
+      },
+      "confabulation_rate": {
+        "numerator": 121,
+        "denominator": 150,
+        "point": 0.8066666666666666,
+        "low": 0.736137141804728,
+        "high": 0.8618811083091764
+      },
+      "examples": [
+        {
+          "gene": "DDR2",
+          "query": "DDR2:p.C358G",
+          "provenance": "constructed",
+          "predicted": "SENSITIVITYRESPONSE",
+          "citations": [
+            "EID272"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "ROS1",
+          "query": "ROS1:p.F2122S",
+          "provenance": "constructed",
+          "predicted": "RESISTANCE",
+          "citations": [
+            "EID1259"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "SPOP",
+          "query": "SPOP:p.R124C",
+          "provenance": "constructed",
+          "predicted": "LOSS_OF_FUNCTION",
+          "citations": [
+            "EID9332"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "SPOP",
+          "query": "SPOP:p.A48H",
+          "provenance": "constructed",
+          "predicted": "LOSS_OF_FUNCTION",
+          "citations": [
+            "EID9332"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "MSH6",
+          "query": "MSH6:p.A1026R",
+          "provenance": "constructed",
+          "predicted": "ONCOGENICITY",
+          "citations": [
+            "EID1840"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "ABCB1",
+          "query": "ABCB1:p.H2652K",
+          "provenance": "constructed",
+          "predicted": "RESISTANCE",
+          "citations": [
+            "EID944"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "DDR2",
+          "query": "DDR2:p.K594R",
+          "provenance": "constructed",
+          "predicted": "SENSITIVITYRESPONSE",
+          "citations": [
+            "EID272"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "DDR2",
+          "query": "DDR2:p.M562Q",
+          "provenance": "constructed",
+          "predicted": "SENSITIVITYRESPONSE",
+          "citations": [
+            "EID272"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "MSH6",
+          "query": "MSH6:p.R847G",
+          "provenance": "constructed",
+          "predicted": "ONCOGENICITY",
+          "citations": [
+            "EID1840"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        },
+        {
+          "gene": "ABCB1",
+          "query": "ABCB1:p.H2830E",
+          "provenance": "constructed",
+          "predicted": "RESISTANCE",
+          "citations": [
+            "EID944"
+          ],
+          "reasoning": "Echo of the top-ranked retrieved evidence item."
+        }
+      ]
+    },
+    "pooled_observed_only": {
+      "n": 163,
+      "confabulation_rate": {
+        "numerator": 13,
+        "denominator": 163,
+        "point": 0.07975460122699386,
+        "low": 0.047199221896216274,
+        "high": 0.13166194985993251
+      }
+    }
+  },
+  "ablation": {
+    "arm3b_no_retrieval": {
+      "n": 156,
+      "answer_rate": {
+        "numerator": 0,
+        "denominator": 156,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.0240329314484235
+      },
+      "abstention_rate": {
+        "numerator": 156,
+        "denominator": 156,
+        "point": 1.0,
+        "low": 0.9759670685515763,
+        "high": 0.9999999999999998
+      },
+      "agreement_rate": {
+        "numerator": 0,
+        "denominator": 156,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.0240329314484235
+      },
+      "contradiction_rate": {
+        "numerator": 0,
+        "denominator": 156,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.0240329314484235
+      },
+      "hedge_rate": {
+        "numerator": 156,
+        "denominator": 156,
+        "point": 1.0,
+        "low": 0.9759670685515763,
+        "high": 0.9999999999999998
+      },
+      "agreement_given_answered": {
+        "numerator": 0,
+        "denominator": 0,
+        "point": null,
+        "low": null,
+        "high": null
+      },
+      "net_benefit_per_100": 0.0,
+      "citation_validity": {
+        "numerator": 0,
+        "denominator": 0,
+        "point": null,
+        "low": null,
+        "high": null
+      },
+      "outputs_with_invalid_citation": {
+        "numerator": 0,
+        "denominator": 156,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.0240329314484235
+      },
+      "unparseable": 0,
+      "records": [
+        {
+          "gene": "AKT1",
+          "protein_change": "E17K",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "ALK",
+          "protein_change": "F1174L",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "ALK",
+          "protein_change": "R1275Q",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "ARAF",
+          "protein_change": "S214C",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "V600D",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "V600E",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "L858R",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "T790M",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "ERBB2",
+          "protein_change": "D769Y",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "ERBB2",
+          "protein_change": "L755S",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "ERBB2",
+          "protein_change": "R678Q",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "ERBB2",
+          "protein_change": "V777L",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "ESR1",
+          "protein_change": "D538G",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "IDH1",
+          "protein_change": "R132C",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "IDH2",
+          "protein_change": "R172K",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "JAK2",
+          "protein_change": "V617F",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "D816V",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "L576P",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12C",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12D",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G13D",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "NPM1",
+          "protein_change": "W288FS",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PDGFRA",
+          "protein_change": "D842V",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "E542K",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "E545K",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "H1047R",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "RET",
+          "protein_change": "M918T",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R175H",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R248Q",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R248W",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R273C",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R273H",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "U2AF1",
+          "protein_change": null,
+          "label": "NA",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "G719S",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12A",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "AKT1",
+          "protein_change": "Q79K",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "M541L",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "NT5C2",
+          "protein_change": "R367Q",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "NT5C2",
+          "protein_change": "K359Q",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "MTHFR",
+          "protein_change": "A222V",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "HRAS",
+          "protein_change": "G13D",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "SMO",
+          "protein_change": "D473H",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "MYD88",
+          "protein_change": "L265P",
+          "label": "BETTER_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12V",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "NRAS",
+          "protein_change": "Q61K",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "S492R",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "ALK",
+          "protein_change": "I1171T",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12R",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "S768I",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "V600K",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "L597Q",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "D594G",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "S249C",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PTEN",
+          "protein_change": "R173C",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "GNAS",
+          "protein_change": "I131=",
+          "label": "BETTER_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "G245S",
+          "label": "DOMINANT_NEGATIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "A146T",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "Q61H",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12S",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "Y220C",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "C420R",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PDGFRA",
+          "protein_change": "V561D",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "V559D",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "V560D",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "K642E",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "D820Y",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "H1047L",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "K111N",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "N822K",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "T670I",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "CTNNB1",
+          "protein_change": "T41A",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "CTNNB1",
+          "protein_change": "S45F",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "CTNNB1",
+          "protein_change": "S45P",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FLT3",
+          "protein_change": "D835V",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "K650E",
+          "label": "GAIN_OF_FUNCTION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R158H",
+          "label": "DOMINANT_NEGATIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R249S",
+          "label": "DOMINANT_NEGATIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L158P",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R167Q",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Y98H",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "T157I",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R161Q",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R167W",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L178P",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q73*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "N78H",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "N78S",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "W117C",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "C162R",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "C162F",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "C162W",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L184P",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S183*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S65W",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S65L",
+          "label": "NA",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L89P",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "E94*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R113*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L118P",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L158V",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R161*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q195*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "D121G",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "C162Y",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "V166F",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "V170D",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "E70*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q164*",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q96*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q164R",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "G114R",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "G93S",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "I151T",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S80N",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L169P",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R120G",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "V170G",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Y156C",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "E70K",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "H115Q",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S80R",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Y175*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "V74G",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "DICER1",
+          "protein_change": "D1709N",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "F76DEL C.227_229DEL",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "G466V",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "V555M",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "Y373C",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "G380R",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "H3-3A",
+          "protein_change": "K28M",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "H3-3A",
+          "protein_change": "G35W",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PAX5",
+          "protein_change": "P80R",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "H3C2",
+          "protein_change": "K27M",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "NT5C2",
+          "protein_change": "R238W",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "NT5C2",
+          "protein_change": "S445F",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PRPS1",
+          "protein_change": "L191F",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PRPS1",
+          "protein_change": "N144S",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "PRPS1",
+          "protein_change": "A190T",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "EZH2",
+          "protein_change": "Y646F",
+          "label": "LOSS_OF_FUNCTION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FLT3",
+          "protein_change": "D835Y",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "MYOD1",
+          "protein_change": "L122R",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FLT3",
+          "protein_change": "Y842C",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "N540K",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "G697C",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "EZH2",
+          "protein_change": "Y646N",
+          "label": "GAIN_OF_FUNCTION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        },
+        {
+          "gene": "EZH2",
+          "protein_change": "A682G",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "No retrieved evidence to echo."
+        }
+      ],
+      "answers_outside_civic_vocabulary": {
+        "numerator": 0,
+        "denominator": 0,
+        "point": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "arm4_no_retrieval": {
+      "easy": {
+        "n": 150,
+        "abstention_rate": {
+          "numerator": 150,
+          "denominator": 150,
+          "point": 1.0,
+          "low": 0.9750297556204964,
+          "high": 1.0
+        },
+        "confabulation_rate": {
+          "numerator": 0,
+          "denominator": 150,
+          "point": 0.0,
+          "low": 1.6914070068508043e-18,
+          "high": 0.02497024437950352
+        },
+        "examples": []
+      },
+      "hard": {
+        "n": 13,
+        "abstention_rate": {
+          "numerator": 13,
+          "denominator": 13,
+          "point": 1.0,
+          "low": 0.7719046275631658,
+          "high": 1.0
+        },
+        "confabulation_rate": {
+          "numerator": 0,
+          "denominator": 13,
+          "point": 0.0,
+          "low": 0.0,
+          "high": 0.22809537243683428
+        },
+        "examples": []
+      },
+      "hard_constructed": {
+        "n": 150,
+        "abstention_rate": {
+          "numerator": 150,
+          "denominator": 150,
+          "point": 1.0,
+          "low": 0.9750297556204964,
+          "high": 1.0
+        },
+        "confabulation_rate": {
+          "numerator": 0,
+          "denominator": 150,
+          "point": 0.0,
+          "low": 1.6914070068508043e-18,
+          "high": 0.02497024437950352
+        },
+        "examples": []
+      },
+      "pooled_observed_only": {
+        "n": 163,
+        "confabulation_rate": {
+          "numerator": 0,
+          "denominator": 163,
+          "point": 0.0,
+          "low": 0.0,
+          "high": 0.023024605812060266
+        }
+      }
+    }
+  }
+}

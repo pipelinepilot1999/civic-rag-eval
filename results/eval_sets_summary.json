@@ -1,0 +1,28 @@
+{
+  "retrieval_holdout": 919,
+  "assertion_holdout": 29,
+  "assertion_skipped": {
+    "multi_variant": 1,
+    "unqueryable": 117,
+    "no_evidence": 0
+  },
+  "leave_one_out": 156,
+  "negative_controls": 313,
+  "negative_pool": {
+    "annotation": {
+      "total": 41072,
+      "with_gene": 350,
+      "with_protein_change": 331,
+      "with_hg19": 340,
+      "not_found": 30906,
+      "uncached": 1472
+    },
+    "hard_observed_available": 13,
+    "easy_observed_available": 320,
+    "hard_constructed_available": 233,
+    "hard_constructed_rejected": 0,
+    "well_covered_genes": 6,
+    "genes_excluded_gene_level_bucket": 272
+  },
+  "seed": 20260902
+}

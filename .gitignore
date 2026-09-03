@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+data/cache/
+data/seqc2/*.gz
+results/*.log

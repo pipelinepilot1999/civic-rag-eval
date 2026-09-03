@@ -1,0 +1,5 @@
+# Optional. The dense retriever is the only component that needs torch, and the
+# results show it loses to the structured baseline -- so it stays out of the
+# default install and the default Docker image.
+sentence-transformers==3.3.1
+numpy==2.2.1

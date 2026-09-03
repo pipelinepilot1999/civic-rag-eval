@@ -1,0 +1,5329 @@
+{
+  "run": {
+    "timestamp": "2026-09-03T01:13:08.474320+00:00",
+    "backend": "always-abstain",
+    "retriever": "hybrid",
+    "k": 5,
+    "snapshot": "2026-09-02",
+    "corpus_documents": 4908,
+    "seconds": 0.5,
+    "rescored": true
+  },
+  "matcher_coverage": {
+    "civic_variants_total": 5069,
+    "tier1_coordinate_keys": 1234,
+    "tier1_coordinate_variants": 1242,
+    "coord_records_missing_alleles": 678,
+    "tier2_protein_keys": 3024,
+    "tier2_protein_variants": 2620,
+    "tier3_category_variants": 1475,
+    "tier3_by_rule": {
+      "fusion": 450,
+      "expression": 392,
+      "any_mutation": 309,
+      "copy_loss": 166,
+      "copy_gain": 73,
+      "exon": 60,
+      "wildtype": 11,
+      "phosphorylation": 6,
+      "methylation": 4,
+      "gof": 4
+    },
+    "tier3_satisfiable_by_small_variant": 373,
+    "reachable_by_any_tier": 4204,
+    "unreachable": 865
+  },
+  "arm1_retrieval": {
+    "structured": {
+      "recall@1": {
+        "numerator": 882,
+        "denominator": 919,
+        "point": 0.9597388465723613,
+        "low": 0.9449990644850704,
+        "high": 0.9706511719901968
+      },
+      "recall@5": {
+        "numerator": 918,
+        "denominator": 919,
+        "point": 0.998911860718172,
+        "low": 0.99386224741519,
+        "high": 0.9998078908662535
+      },
+      "recall@10": {
+        "numerator": 919,
+        "denominator": 919,
+        "point": 1.0,
+        "low": 0.9958373577760596,
+        "high": 0.9999999999999998
+      },
+      "returned_nothing": {
+        "numerator": 0,
+        "denominator": 919,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.004162642223940181
+      }
+    },
+    "lexical": {
+      "recall@1": {
+        "numerator": 823,
+        "denominator": 919,
+        "point": 0.8955386289445049,
+        "low": 0.8740900539553338,
+        "high": 0.9136942323375884
+      },
+      "recall@5": {
+        "numerator": 864,
+        "denominator": 919,
+        "point": 0.940152339499456,
+        "low": 0.9229067774504451,
+        "high": 0.9537335081217339
+      },
+      "recall@10": {
+        "numerator": 871,
+        "denominator": 919,
+        "point": 0.9477693144722524,
+        "low": 0.9314300554159586,
+        "high": 0.9603807666185323
+      },
+      "returned_nothing": {
+        "numerator": 0,
+        "denominator": 919,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.004162642223940181
+      }
+    },
+    "hybrid": {
+      "recall@1": {
+        "numerator": 882,
+        "denominator": 919,
+        "point": 0.9597388465723613,
+        "low": 0.9449990644850704,
+        "high": 0.9706511719901968
+      },
+      "recall@5": {
+        "numerator": 918,
+        "denominator": 919,
+        "point": 0.998911860718172,
+        "low": 0.99386224741519,
+        "high": 0.9998078908662535
+      },
+      "recall@10": {
+        "numerator": 919,
+        "denominator": 919,
+        "point": 1.0,
+        "low": 0.9958373577760596,
+        "high": 0.9999999999999998
+      },
+      "returned_nothing": {
+        "numerator": 0,
+        "denominator": 919,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.004162642223940181
+      }
+    }
+  },
+  "arm3a_assertion_agreement": {
+    "n": 29,
+    "answer_rate": {
+      "numerator": 0,
+      "denominator": 29,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.11696979854821798
+    },
+    "abstention_rate": {
+      "numerator": 29,
+      "denominator": 29,
+      "point": 1.0,
+      "low": 0.8830302014517819,
+      "high": 0.9999999999999998
+    },
+    "agreement_rate": {
+      "numerator": 0,
+      "denominator": 29,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.11696979854821798
+    },
+    "contradiction_rate": {
+      "numerator": 0,
+      "denominator": 29,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.11696979854821798
+    },
+    "hedge_rate": {
+      "numerator": 29,
+      "denominator": 29,
+      "point": 1.0,
+      "low": 0.8830302014517819,
+      "high": 0.9999999999999998
+    },
+    "agreement_given_answered": {
+      "numerator": 0,
+      "denominator": 0,
+      "point": null,
+      "low": null,
+      "high": null
+    },
+    "net_benefit_per_100": 0.0,
+    "citation_validity": {
+      "numerator": 0,
+      "denominator": 0,
+      "point": null,
+      "low": null,
+      "high": null
+    },
+    "outputs_with_invalid_citation": {
+      "numerator": 0,
+      "denominator": 29,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.11696979854821798
+    },
+    "unparseable": 0,
+    "records": [
+      {
+        "gene": "VHL",
+        "protein_change": "R167Q",
+        "label": "PATHOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4913",
+          "EID5062",
+          "EID5264",
+          "EID5354",
+          "EID5381"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "L858R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2994",
+          "EID2997",
+          "EID11219",
+          "EID11239",
+          "EID11240"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "L858R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2994",
+          "EID2997",
+          "EID11219",
+          "EID11239",
+          "EID11240"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600E",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1409",
+          "EID3017",
+          "EID9851",
+          "EID12016",
+          "EID12161"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ACVR1",
+        "protein_change": "G328V",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID6955",
+          "EID10011",
+          "EID10014",
+          "EID4845",
+          "EID4846"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600E",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1409",
+          "EID3017",
+          "EID9851",
+          "EID12016",
+          "EID12161"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID93",
+          "EID1399",
+          "EID1410",
+          "EID2505",
+          "EID2506"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID93",
+          "EID1399",
+          "EID1410",
+          "EID2505",
+          "EID2506"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "E70K",
+        "label": "LIKELY_PATHOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5273",
+          "EID5780",
+          "EID5805",
+          "EID6503",
+          "EID6742"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "F76DEL C.227_229DEL",
+        "label": "PATHOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4919",
+          "EID5203",
+          "EID5340",
+          "EID5386",
+          "EID5426"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q195*",
+        "label": "PATHOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4987",
+          "EID5097",
+          "EID5134",
+          "EID5360",
+          "EID5404"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600E",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1409",
+          "EID3017",
+          "EID9851",
+          "EID12016",
+          "EID12161"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L184P",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4943",
+          "EID5055",
+          "EID6027",
+          "EID6119",
+          "EID6167"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "S249C",
+        "label": "ONCOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1603",
+          "EID12703",
+          "EID13162",
+          "EID4871",
+          "EID7941"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "D816V",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID26",
+          "EID1725",
+          "EID1726",
+          "EID11158",
+          "EID11160"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PAX5",
+        "protein_change": "P80R",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7290",
+          "EID7291",
+          "EID11519",
+          "EID12867",
+          "EID12869"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "L858R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2994",
+          "EID2997",
+          "EID11219",
+          "EID11239",
+          "EID11240"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "T790M",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID238",
+          "EID1592",
+          "EID1867",
+          "EID11598",
+          "EID11599"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "MYOD1",
+        "protein_change": "L122R",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID8193",
+          "EID8194",
+          "EID8313",
+          "EID9532",
+          "EID11582"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "RET",
+        "protein_change": "M918T",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12598",
+          "EID78",
+          "EID1365",
+          "EID7710",
+          "EID12800"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "RET",
+        "protein_change": "M918T",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12598",
+          "EID78",
+          "EID1365",
+          "EID7710",
+          "EID12800"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "H3-3A",
+        "protein_change": "G35W",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID6469",
+          "EID12749",
+          "EID12750",
+          "EID7189",
+          "EID13177"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "HRAS",
+        "protein_change": "G13R",
+        "label": "ONCOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID9632",
+          "EID9633",
+          "EID11681",
+          "EID11696",
+          "EID699"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "MAP2K1",
+        "protein_change": "P124S",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12",
+          "EID12986",
+          "EID13",
+          "EID1602",
+          "EID1661"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ARAF",
+        "protein_change": "S214F",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12972",
+          "EID11146",
+          "EID41",
+          "EID40",
+          "EID1905"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "RAF1",
+        "protein_change": "S257L",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12991",
+          "EID13152",
+          "EID9021",
+          "EID1496",
+          "EID8374"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "G292R",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12119",
+          "EID11731",
+          "EID12530",
+          "EID12808",
+          "EID5338"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "V777L",
+        "label": "LIKELY_ONCOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID11690",
+          "EID288",
+          "EID1177",
+          "EID4452",
+          "EID9697"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "H3C2",
+        "protein_change": "K27M",
+        "label": "ONCOGENIC",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID9546",
+          "EID13177",
+          "EID9583",
+          "EID10605",
+          "EID11038"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      }
+    ],
+    "answers_outside_civic_vocabulary": {
+      "numerator": 0,
+      "denominator": 0,
+      "point": null,
+      "low": null,
+      "high": null
+    }
+  },
+  "arm3b_leave_one_out_agreement": {
+    "n": 156,
+    "answer_rate": {
+      "numerator": 0,
+      "denominator": 156,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0240329314484235
+    },
+    "abstention_rate": {
+      "numerator": 156,
+      "denominator": 156,
+      "point": 1.0,
+      "low": 0.9759670685515763,
+      "high": 0.9999999999999998
+    },
+    "agreement_rate": {
+      "numerator": 0,
+      "denominator": 156,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0240329314484235
+    },
+    "contradiction_rate": {
+      "numerator": 0,
+      "denominator": 156,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0240329314484235
+    },
+    "hedge_rate": {
+      "numerator": 156,
+      "denominator": 156,
+      "point": 1.0,
+      "low": 0.9759670685515763,
+      "high": 0.9999999999999998
+    },
+    "agreement_given_answered": {
+      "numerator": 0,
+      "denominator": 0,
+      "point": null,
+      "low": null,
+      "high": null
+    },
+    "net_benefit_per_100": 0.0,
+    "citation_validity": {
+      "numerator": 0,
+      "denominator": 0,
+      "point": null,
+      "low": null,
+      "high": null
+    },
+    "outputs_with_invalid_citation": {
+      "numerator": 0,
+      "denominator": 156,
+      "point": 0.0,
+      "low": 0.0,
+      "high": 0.0240329314484235
+    },
+    "unparseable": 0,
+    "records": [
+      {
+        "gene": "AKT1",
+        "protein_change": "E17K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID709",
+          "EID707",
+          "EID4029",
+          "EID231",
+          "EID12020"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ALK",
+        "protein_change": "F1174L",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID32",
+          "EID33",
+          "EID37",
+          "EID38",
+          "EID125"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ALK",
+        "protein_change": "R1275Q",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1269",
+          "EID1270",
+          "EID39",
+          "EID48",
+          "EID143"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ARAF",
+        "protein_change": "S214C",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID17",
+          "EID40",
+          "EID11147",
+          "EID1905",
+          "EID11148"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600D",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7616",
+          "EID7629",
+          "EID4488",
+          "EID4489",
+          "EID2187"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600E",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1409",
+          "EID3017",
+          "EID9851",
+          "EID12016",
+          "EID12161"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "L858R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2994",
+          "EID2997",
+          "EID11219",
+          "EID11239",
+          "EID11240"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "T790M",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID238",
+          "EID1592",
+          "EID1867",
+          "EID11598",
+          "EID11599"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "D769Y",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID11688",
+          "EID280",
+          "EID11731",
+          "EID12530",
+          "EID12808"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "L755S",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4955",
+          "EID241",
+          "EID283",
+          "EID3004",
+          "EID4519"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "R678Q",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID13138",
+          "EID13139",
+          "EID13140",
+          "EID11731",
+          "EID12530"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ERBB2",
+        "protein_change": "V777L",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID288",
+          "EID1177",
+          "EID4452",
+          "EID9697",
+          "EID11731"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ESR1",
+        "protein_change": "D538G",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID243",
+          "EID291",
+          "EID11443",
+          "EID12045",
+          "EID246"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "IDH1",
+        "protein_change": "R132C",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID11508",
+          "EID224",
+          "EID2327",
+          "EID2331",
+          "EID324"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "IDH2",
+        "protein_change": "R172K",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID11509",
+          "EID331",
+          "EID332",
+          "EID5069",
+          "EID11708"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "JAK2",
+        "protein_change": "V617F",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1",
+          "EID5",
+          "EID6",
+          "EID19",
+          "EID20"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "D816V",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID26",
+          "EID1725",
+          "EID1726",
+          "EID11158",
+          "EID11160"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "L576P",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID34",
+          "EID42",
+          "EID303",
+          "EID4141",
+          "EID1222"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12C",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID9431",
+          "EID12063",
+          "EID12264",
+          "EID227",
+          "EID1142"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12D",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID228",
+          "EID1215",
+          "EID1300",
+          "EID1311",
+          "EID1732"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G13D",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID306",
+          "EID1181",
+          "EID3881",
+          "EID3882",
+          "EID806"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "NPM1",
+        "protein_change": "W288FS",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID109",
+          "EID153",
+          "EID108",
+          "EID12494",
+          "EID12495"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PDGFRA",
+        "protein_change": "D842V",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2",
+          "EID15",
+          "EID16",
+          "EID738",
+          "EID2478"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "E542K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7315",
+          "EID12535",
+          "EID83",
+          "EID6191",
+          "EID1549"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "E545K",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7468",
+          "EID12534",
+          "EID2106",
+          "EID6191",
+          "EID387"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "H1047R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7318",
+          "EID12533",
+          "EID2097",
+          "EID2100",
+          "EID3047"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "RET",
+        "protein_change": "M918T",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID78",
+          "EID1365",
+          "EID7710",
+          "EID12800",
+          "EID6950"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R175H",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID389",
+          "EID2310",
+          "EID7540",
+          "EID4880",
+          "EID10074"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R248Q",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID391",
+          "EID3042",
+          "EID7115",
+          "EID7161",
+          "EID7525"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R248W",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4879",
+          "EID10261",
+          "EID1507",
+          "EID393",
+          "EID517"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R273C",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID395",
+          "EID12732",
+          "EID2292",
+          "EID4881",
+          "EID10256"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R273H",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID397",
+          "EID398",
+          "EID4882",
+          "EID7530",
+          "EID1507"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "U2AF1",
+        "protein_change": null,
+        "label": "NA",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID400",
+          "EID338",
+          "EID1262",
+          "EID340",
+          "EID401"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "G719S",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1736",
+          "EID274",
+          "EID787",
+          "EID12522",
+          "EID12523"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12A",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID251",
+          "EID2008",
+          "EID2009",
+          "EID4429",
+          "EID6319"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "AKT1",
+        "protein_change": "Q79K",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID6260",
+          "EID439",
+          "EID12020",
+          "EID12075",
+          "EID4029"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "M541L",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID485",
+          "EID1423",
+          "EID1222",
+          "EID919",
+          "EID58"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "NT5C2",
+        "protein_change": "R367Q",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7812",
+          "EID630",
+          "EID633",
+          "EID7815",
+          "EID7818"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "NT5C2",
+        "protein_change": "K359Q",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID631",
+          "EID636",
+          "EID7818",
+          "EID633",
+          "EID635"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "MTHFR",
+        "protein_change": "A222V",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID669",
+          "EID1756"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "HRAS",
+        "protein_change": "G13D",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID3851",
+          "EID3852",
+          "EID9632",
+          "EID9633",
+          "EID11681"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "SMO",
+        "protein_change": "D473H",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID745",
+          "EID1099",
+          "EID746",
+          "EID1477",
+          "EID5979"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "MYD88",
+        "protein_change": "L265P",
+        "label": "BETTER_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID986",
+          "EID1641",
+          "EID734",
+          "EID12255"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12V",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID987",
+          "EID1143",
+          "EID2219",
+          "EID2232",
+          "EID2268"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "NRAS",
+        "protein_change": "Q61K",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2189",
+          "EID8933",
+          "EID1002",
+          "EID1475",
+          "EID2192"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "S492R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID717",
+          "EID1078",
+          "EID1080",
+          "EID12522",
+          "EID12523"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "ALK",
+        "protein_change": "I1171T",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1283",
+          "EID1284",
+          "EID1367",
+          "EID9404",
+          "EID1285"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12R",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1298",
+          "EID2264",
+          "EID3987",
+          "EID3991",
+          "EID2998"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EGFR",
+        "protein_change": "S768I",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID11229",
+          "EID1395",
+          "EID4273",
+          "EID2906",
+          "EID4274"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "V600K",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID93",
+          "EID1399",
+          "EID1410",
+          "EID2505",
+          "EID2506"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "L597Q",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4905",
+          "EID1461",
+          "EID2187",
+          "EID6302",
+          "EID6303"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "D594G",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1553",
+          "EID4472",
+          "EID1554",
+          "EID2201",
+          "EID6001"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "S249C",
+        "label": "ONCOGENICITY",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1603",
+          "EID12703",
+          "EID13162",
+          "EID4871",
+          "EID7941"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PTEN",
+        "protein_change": "R173C",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1934",
+          "EID1935",
+          "EID12020",
+          "EID12075",
+          "EID12602"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "GNAS",
+        "protein_change": "I131=",
+        "label": "BETTER_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID1995",
+          "EID1996",
+          "EID1997",
+          "EID2892",
+          "EID2893"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "G245S",
+        "label": "DOMINANT_NEGATIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12732",
+          "EID4883",
+          "EID10253",
+          "EID10532",
+          "EID1507"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "A146T",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID3858",
+          "EID2206",
+          "EID12947",
+          "EID2998",
+          "EID5345"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "Q61H",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID3861",
+          "EID7936",
+          "EID2998",
+          "EID5345",
+          "EID999"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KRAS",
+        "protein_change": "G12S",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2273",
+          "EID4006",
+          "EID2269",
+          "EID6314",
+          "EID2277"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "Y220C",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4884",
+          "EID7107",
+          "EID7527",
+          "EID1507",
+          "EID393"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "C420R",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID11275",
+          "EID12539",
+          "EID1999",
+          "EID8549",
+          "EID2346"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PDGFRA",
+        "protein_change": "V561D",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2454",
+          "EID4056",
+          "EID5347",
+          "EID2487",
+          "EID16"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "V559D",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID3029",
+          "EID4459",
+          "EID1222",
+          "EID919",
+          "EID58"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "V560D",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4122",
+          "EID4127",
+          "EID4077",
+          "EID1222",
+          "EID919"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "K642E",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4147",
+          "EID7397",
+          "EID2472",
+          "EID1222",
+          "EID919"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "D820Y",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4589",
+          "EID2888",
+          "EID1222",
+          "EID919",
+          "EID58"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "H1047L",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7318",
+          "EID12533",
+          "EID3047",
+          "EID2089",
+          "EID8009"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PIK3CA",
+        "protein_change": "K111N",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12536",
+          "EID2085",
+          "EID8011",
+          "EID8020",
+          "EID8274"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "N822K",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4595",
+          "EID4169",
+          "EID7379",
+          "EID7414",
+          "EID2448"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "KIT",
+        "protein_change": "T670I",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4510",
+          "EID7416",
+          "EID7417",
+          "EID1222",
+          "EID919"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "CTNNB1",
+        "protein_change": "T41A",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2973",
+          "EID3044",
+          "EID2988",
+          "EID5071",
+          "EID5072"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "CTNNB1",
+        "protein_change": "S45F",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2974",
+          "EID2976",
+          "EID5071",
+          "EID6049",
+          "EID2988"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "CTNNB1",
+        "protein_change": "S45P",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID2975",
+          "EID3043",
+          "EID2988",
+          "EID5070",
+          "EID5071"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FLT3",
+        "protein_change": "D835V",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4022",
+          "EID3007",
+          "EID3009",
+          "EID3010",
+          "EID3034"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "K650E",
+        "label": "GAIN_OF_FUNCTION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID10381",
+          "EID10493",
+          "EID10355",
+          "EID7422",
+          "EID1910"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R158H",
+        "label": "DOMINANT_NEGATIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4886",
+          "EID10237",
+          "EID1507",
+          "EID393",
+          "EID517"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "TP53",
+        "protein_change": "R249S",
+        "label": "DOMINANT_NEGATIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4888",
+          "EID7116",
+          "EID1507",
+          "EID393",
+          "EID517"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L158P",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4938",
+          "EID5103",
+          "EID5281",
+          "EID6613",
+          "EID418"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R167Q",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4913",
+          "EID5062",
+          "EID5264",
+          "EID5354",
+          "EID5381"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Y98H",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7645",
+          "EID4906",
+          "EID4967",
+          "EID5418",
+          "EID5451"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4908",
+          "EID5436",
+          "EID5454",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "T157I",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4910",
+          "EID6581",
+          "EID6612",
+          "EID8988",
+          "EID418"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R161Q",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4911",
+          "EID5061",
+          "EID5125",
+          "EID5179",
+          "EID5400"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R167W",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4912",
+          "EID5052",
+          "EID5184",
+          "EID5265",
+          "EID5382"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L178P",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4914",
+          "EID5149",
+          "EID5198",
+          "EID5470",
+          "EID7004"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q73*",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4918",
+          "EID5270",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "N78H",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4920",
+          "EID5130",
+          "EID5341",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "N78S",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4921",
+          "EID5020",
+          "EID5027",
+          "EID5250",
+          "EID5376"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5157",
+          "EID8973",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "W117C",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4933",
+          "EID5044",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "C162R",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4939",
+          "EID5349",
+          "EID8989",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "C162F",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4940",
+          "EID5050",
+          "EID6584",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "C162W",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5267",
+          "EID5355",
+          "EID6585",
+          "EID6616",
+          "EID7895"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L184P",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4943",
+          "EID5055",
+          "EID6027",
+          "EID6119",
+          "EID6167"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5154",
+          "EID5461",
+          "EID6609",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S183*",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5370",
+          "EID6592",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S65W",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4917",
+          "EID4958",
+          "EID4998",
+          "EID5026",
+          "EID5034"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S65L",
+        "label": "NA",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4959",
+          "EID5104",
+          "EID5159",
+          "EID5287",
+          "EID5499"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L89P",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4965",
+          "EID5150",
+          "EID5368",
+          "EID5449",
+          "EID418"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "E94*",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5137",
+          "EID5405",
+          "EID5550",
+          "EID5561",
+          "EID5771"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R113*",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5043",
+          "EID5177",
+          "EID5260",
+          "EID5352",
+          "EID6602"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L118P",
+        "label": "ONCOGENICITY",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4971",
+          "EID5143",
+          "EID5276",
+          "EID5435",
+          "EID5477"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4974",
+          "EID5152",
+          "EID5202",
+          "EID5284",
+          "EID6512"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L158V",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4977",
+          "EID5464",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R161*",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5049",
+          "EID5263",
+          "EID5375",
+          "EID5483",
+          "EID5761"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q195*",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4987",
+          "EID5097",
+          "EID5134",
+          "EID5360",
+          "EID5404"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "D121G",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5455",
+          "EID5578",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "C162Y",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5493",
+          "EID6615",
+          "EID8990",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "V166F",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5302",
+          "EID8606",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "V170D",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5013",
+          "EID5029",
+          "EID5092",
+          "EID5863",
+          "EID418"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "E70*",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5361",
+          "EID5445",
+          "EID6059",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5369",
+          "EID6505",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q164*",
+        "label": "ONCOGENICITY",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5051",
+          "EID5096",
+          "EID5359",
+          "EID5403",
+          "EID418"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q96*",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5058",
+          "EID5271",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Q164R",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5133",
+          "EID10177",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "G114R",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5305",
+          "EID9067",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "G93S",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5100",
+          "EID6507",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "I151T",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5101",
+          "EID5720",
+          "EID6696",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S80N",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5371",
+          "EID5415",
+          "EID5427",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "L169P",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5197",
+          "EID6589",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5158",
+          "EID5286",
+          "EID6551",
+          "EID8972",
+          "EID8771"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "R120G",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5178",
+          "EID6511",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "V170G",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5172",
+          "EID6590",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Y156C",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5417",
+          "EID5463",
+          "EID6516",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "E70K",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5273",
+          "EID5780",
+          "EID6503",
+          "EID6742",
+          "EID6860"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "H115Q",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5274",
+          "EID5515",
+          "EID4907",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID6513",
+          "EID6577",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "S80R",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5510",
+          "EID5547",
+          "EID5548",
+          "EID4964",
+          "EID5448"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "Y175*",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5300",
+          "EID5440",
+          "EID7005",
+          "EID5736",
+          "EID6621"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "V74G",
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5424",
+          "EID5446",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "DICER1",
+        "protein_change": "D1709N",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5534",
+          "EID5899",
+          "EID11480",
+          "EID5887",
+          "EID5897"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5610",
+          "EID6514",
+          "EID6610",
+          "EID418",
+          "EID422"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "UNCERTAIN_SIGNIFICANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5462",
+          "EID5724",
+          "EID418",
+          "EID422",
+          "EID5323"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": "F76DEL C.227_229DEL",
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID4919",
+          "EID5203",
+          "EID5340",
+          "EID5426",
+          "EID5447"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "VHL",
+        "protein_change": null,
+        "label": "PREDISPOSITION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5332",
+          "EID5689",
+          "EID5845",
+          "EID6509",
+          "EID8215"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "BRAF",
+        "protein_change": "G466V",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID5968",
+          "EID7552",
+          "EID7554",
+          "EID2187",
+          "EID6302"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "V555M",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12988",
+          "EID12989",
+          "EID12990",
+          "EID7422",
+          "EID1910"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "Y373C",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID477",
+          "EID12704",
+          "EID8881",
+          "EID7422",
+          "EID1910"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "G380R",
+        "label": "ONCOGENICITY",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID10368",
+          "EID10396",
+          "EID10415",
+          "EID10416",
+          "EID12847"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "H3-3A",
+        "protein_change": "K28M",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12695",
+          "EID6450",
+          "EID6453",
+          "EID7601",
+          "EID10605"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "H3-3A",
+        "protein_change": "G35W",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID6469",
+          "EID12750",
+          "EID7189",
+          "EID13177",
+          "EID10605"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PAX5",
+        "protein_change": "P80R",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7290",
+          "EID7291",
+          "EID12867",
+          "EID12869",
+          "EID12868"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "H3C2",
+        "protein_change": "K27M",
+        "label": "POSITIVE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID13177",
+          "EID9583",
+          "EID10605",
+          "EID11038",
+          "EID6453"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "NT5C2",
+        "protein_change": "R238W",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7863",
+          "EID7813",
+          "EID7818",
+          "EID7815",
+          "EID632"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "NT5C2",
+        "protein_change": "S445F",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7814",
+          "EID7817",
+          "EID7818",
+          "EID7815",
+          "EID632"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PRPS1",
+        "protein_change": "L191F",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7911",
+          "EID7923",
+          "EID7871",
+          "EID7910",
+          "EID7930"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PRPS1",
+        "protein_change": "N144S",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7903",
+          "EID7910",
+          "EID7871",
+          "EID7911",
+          "EID7923"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "PRPS1",
+        "protein_change": "A190T",
+        "label": "RESISTANCE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID7888",
+          "EID7909",
+          "EID7913",
+          "EID7871",
+          "EID7910"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EZH2",
+        "protein_change": "Y646F",
+        "label": "LOSS_OF_FUNCTION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID11220",
+          "EID11109",
+          "EID11110",
+          "EID11111",
+          "EID6952"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FLT3",
+        "protein_change": "D835Y",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID247",
+          "EID8106",
+          "EID8108",
+          "EID11085",
+          "EID11095"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "MYOD1",
+        "protein_change": "L122R",
+        "label": "POOR_OUTCOME",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID8193",
+          "EID8194",
+          "EID8313",
+          "EID9532",
+          "EID11582"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FLT3",
+        "protein_change": "Y842C",
+        "label": "SENSITIVITYRESPONSE",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID8336",
+          "EID8337",
+          "EID8338",
+          "EID8340",
+          "EID8654"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "N540K",
+        "label": "ONCOGENICITY",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID12703",
+          "EID12704",
+          "EID10084",
+          "EID10389",
+          "EID12702"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "FGFR3",
+        "protein_change": "G697C",
+        "label": "ONCOGENICITY",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID10837",
+          "EID10839",
+          "EID12848",
+          "EID7422",
+          "EID1910"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EZH2",
+        "protein_change": "Y646N",
+        "label": "GAIN_OF_FUNCTION",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID11220",
+          "EID11109",
+          "EID11110",
+          "EID11111",
+          "EID9520"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      },
+      {
+        "gene": "EZH2",
+        "protein_change": "A682G",
+        "label": "ONCOGENICITY",
+        "predicted": "INSUFFICIENT_EVIDENCE",
+        "verdict": "hedge",
+        "citations": [],
+        "available": [
+          "EID11220",
+          "EID11109",
+          "EID11110",
+          "EID11111",
+          "EID12875"
+        ],
+        "abstained": true,
+        "reasoning": "Constant-abstention baseline."
+      }
+    ],
+    "answers_outside_civic_vocabulary": {
+      "numerator": 0,
+      "denominator": 0,
+      "point": null,
+      "low": null,
+      "high": null
+    }
+  },
+  "arm4_negative_controls": {
+    "easy": {
+      "n": 150,
+      "abstention_rate": {
+        "numerator": 150,
+        "denominator": 150,
+        "point": 1.0,
+        "low": 0.9750297556204964,
+        "high": 1.0
+      },
+      "confabulation_rate": {
+        "numerator": 0,
+        "denominator": 150,
+        "point": 0.0,
+        "low": 1.6914070068508043e-18,
+        "high": 0.02497024437950352
+      },
+      "examples": []
+    },
+    "hard": {
+      "n": 13,
+      "abstention_rate": {
+        "numerator": 13,
+        "denominator": 13,
+        "point": 1.0,
+        "low": 0.7719046275631658,
+        "high": 1.0
+      },
+      "confabulation_rate": {
+        "numerator": 0,
+        "denominator": 13,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.22809537243683428
+      },
+      "examples": []
+    },
+    "hard_constructed": {
+      "n": 150,
+      "abstention_rate": {
+        "numerator": 150,
+        "denominator": 150,
+        "point": 1.0,
+        "low": 0.9750297556204964,
+        "high": 1.0
+      },
+      "confabulation_rate": {
+        "numerator": 0,
+        "denominator": 150,
+        "point": 0.0,
+        "low": 1.6914070068508043e-18,
+        "high": 0.02497024437950352
+      },
+      "examples": []
+    },
+    "pooled_observed_only": {
+      "n": 163,
+      "confabulation_rate": {
+        "numerator": 0,
+        "denominator": 163,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.023024605812060266
+      }
+    }
+  },
+  "ablation": {
+    "arm3b_no_retrieval": {
+      "n": 156,
+      "answer_rate": {
+        "numerator": 0,
+        "denominator": 156,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.0240329314484235
+      },
+      "abstention_rate": {
+        "numerator": 156,
+        "denominator": 156,
+        "point": 1.0,
+        "low": 0.9759670685515763,
+        "high": 0.9999999999999998
+      },
+      "agreement_rate": {
+        "numerator": 0,
+        "denominator": 156,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.0240329314484235
+      },
+      "contradiction_rate": {
+        "numerator": 0,
+        "denominator": 156,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.0240329314484235
+      },
+      "hedge_rate": {
+        "numerator": 156,
+        "denominator": 156,
+        "point": 1.0,
+        "low": 0.9759670685515763,
+        "high": 0.9999999999999998
+      },
+      "agreement_given_answered": {
+        "numerator": 0,
+        "denominator": 0,
+        "point": null,
+        "low": null,
+        "high": null
+      },
+      "net_benefit_per_100": 0.0,
+      "citation_validity": {
+        "numerator": 0,
+        "denominator": 0,
+        "point": null,
+        "low": null,
+        "high": null
+      },
+      "outputs_with_invalid_citation": {
+        "numerator": 0,
+        "denominator": 156,
+        "point": 0.0,
+        "low": 0.0,
+        "high": 0.0240329314484235
+      },
+      "unparseable": 0,
+      "records": [
+        {
+          "gene": "AKT1",
+          "protein_change": "E17K",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "ALK",
+          "protein_change": "F1174L",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "ALK",
+          "protein_change": "R1275Q",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "ARAF",
+          "protein_change": "S214C",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "V600D",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "V600E",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "L858R",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "T790M",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "ERBB2",
+          "protein_change": "D769Y",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "ERBB2",
+          "protein_change": "L755S",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "ERBB2",
+          "protein_change": "R678Q",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "ERBB2",
+          "protein_change": "V777L",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "ESR1",
+          "protein_change": "D538G",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "IDH1",
+          "protein_change": "R132C",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "IDH2",
+          "protein_change": "R172K",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "JAK2",
+          "protein_change": "V617F",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "D816V",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "L576P",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12C",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12D",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G13D",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "NPM1",
+          "protein_change": "W288FS",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PDGFRA",
+          "protein_change": "D842V",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "E542K",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "E545K",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "H1047R",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "RET",
+          "protein_change": "M918T",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R175H",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R248Q",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R248W",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R273C",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R273H",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "U2AF1",
+          "protein_change": null,
+          "label": "NA",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "G719S",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12A",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "AKT1",
+          "protein_change": "Q79K",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "M541L",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "NT5C2",
+          "protein_change": "R367Q",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "NT5C2",
+          "protein_change": "K359Q",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "MTHFR",
+          "protein_change": "A222V",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "HRAS",
+          "protein_change": "G13D",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "SMO",
+          "protein_change": "D473H",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "MYD88",
+          "protein_change": "L265P",
+          "label": "BETTER_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12V",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "NRAS",
+          "protein_change": "Q61K",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "S492R",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "ALK",
+          "protein_change": "I1171T",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12R",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "EGFR",
+          "protein_change": "S768I",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "V600K",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "L597Q",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "D594G",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "S249C",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PTEN",
+          "protein_change": "R173C",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "GNAS",
+          "protein_change": "I131=",
+          "label": "BETTER_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "G245S",
+          "label": "DOMINANT_NEGATIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "A146T",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "Q61H",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KRAS",
+          "protein_change": "G12S",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "Y220C",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "C420R",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PDGFRA",
+          "protein_change": "V561D",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "V559D",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "V560D",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "K642E",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "D820Y",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "H1047L",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PIK3CA",
+          "protein_change": "K111N",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "N822K",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "KIT",
+          "protein_change": "T670I",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "CTNNB1",
+          "protein_change": "T41A",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "CTNNB1",
+          "protein_change": "S45F",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "CTNNB1",
+          "protein_change": "S45P",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FLT3",
+          "protein_change": "D835V",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "K650E",
+          "label": "GAIN_OF_FUNCTION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R158H",
+          "label": "DOMINANT_NEGATIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "TP53",
+          "protein_change": "R249S",
+          "label": "DOMINANT_NEGATIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L158P",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R167Q",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Y98H",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "T157I",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R161Q",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R167W",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L178P",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q73*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "N78H",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "N78S",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "W117C",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "C162R",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "C162F",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "C162W",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L184P",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S183*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S65W",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S65L",
+          "label": "NA",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L89P",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "E94*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R113*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L118P",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L158V",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R161*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q195*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "D121G",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "C162Y",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "V166F",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "V170D",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "E70*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q164*",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q96*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Q164R",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "G114R",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "G93S",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "I151T",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S80N",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "L169P",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "R120G",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "V170G",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Y156C",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "E70K",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "H115Q",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "S80R",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "Y175*",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "V74G",
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "DICER1",
+          "protein_change": "D1709N",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "UNCERTAIN_SIGNIFICANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": "F76DEL C.227_229DEL",
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "VHL",
+          "protein_change": null,
+          "label": "PREDISPOSITION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "BRAF",
+          "protein_change": "G466V",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "V555M",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "Y373C",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "G380R",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "H3-3A",
+          "protein_change": "K28M",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "H3-3A",
+          "protein_change": "G35W",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PAX5",
+          "protein_change": "P80R",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "H3C2",
+          "protein_change": "K27M",
+          "label": "POSITIVE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "NT5C2",
+          "protein_change": "R238W",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "NT5C2",
+          "protein_change": "S445F",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PRPS1",
+          "protein_change": "L191F",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PRPS1",
+          "protein_change": "N144S",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "PRPS1",
+          "protein_change": "A190T",
+          "label": "RESISTANCE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "EZH2",
+          "protein_change": "Y646F",
+          "label": "LOSS_OF_FUNCTION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FLT3",
+          "protein_change": "D835Y",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "MYOD1",
+          "protein_change": "L122R",
+          "label": "POOR_OUTCOME",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FLT3",
+          "protein_change": "Y842C",
+          "label": "SENSITIVITYRESPONSE",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "N540K",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "FGFR3",
+          "protein_change": "G697C",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "EZH2",
+          "protein_change": "Y646N",
+          "label": "GAIN_OF_FUNCTION",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        },
+        {
+          "gene": "EZH2",
+          "protein_change": "A682G",
+          "label": "ONCOGENICITY",
+          "predicted": "INSUFFICIENT_EVIDENCE",
+          "verdict": "hedge",
+          "citations": [],
+          "available": [],
+          "abstained": true,
+          "reasoning": "Constant-abstention baseline."
+        }
+      ],
+      "answers_outside_civic_vocabulary": {
+        "numerator": 0,
+        "denominator": 0,
+        "point": null,
+        "low": null,
+        "high": null
+      }
+    },
+    "arm4_no_retrieval": {
+      "easy": {
+        "n": 150,
+        "abstention_rate": {
+          "numerator": 150,
+          "denominator": 150,
+          "point": 1.0,
+          "low": 0.9750297556204964,
+          "high": 1.0
+        },
+        "confabulation_rate": {
+          "numerator": 0,
+          "denominator": 150,
+          "point": 0.0,
+          "low": 1.6914070068508043e-18,
+          "high": 0.02497024437950352
+        },
+        "examples": []
+      },
+      "hard": {
+        "n": 13,
+        "abstention_rate": {
+          "numerator": 13,
+          "denominator": 13,
+          "point": 1.0,
+          "low": 0.7719046275631658,
+          "high": 1.0
+        },
+        "confabulation_rate": {
+          "numerator": 0,
+          "denominator": 13,
+          "point": 0.0,
+          "low": 0.0,
+          "high": 0.22809537243683428
+        },
+        "examples": []
+      },
+      "hard_constructed": {
+        "n": 150,
+        "abstention_rate": {
+          "numerator": 150,
+          "denominator": 150,
+          "point": 1.0,
+          "low": 0.9750297556204964,
+          "high": 1.0
+        },
+        "confabulation_rate": {
+          "numerator": 0,
+          "denominator": 150,
+          "point": 0.0,
+          "low": 1.6914070068508043e-18,
+          "high": 0.02497024437950352
+        },
+        "examples": []
+      },
+      "pooled_observed_only": {
+        "n": 163,
+        "confabulation_rate": {
+          "numerator": 0,
+          "denominator": 163,
+          "point": 0.0,
+          "low": 0.0,
+          "high": 0.023024605812060266
+        }
+      }
+    }
+  }
+}

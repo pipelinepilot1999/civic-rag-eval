@@ -1,0 +1,313 @@
+{"alt": "T", "chrom": "7", "gene": "PTPN12", "hg19_pos": 77230116, "protein_changes": ["H100Y", "H111Y", "H230Y"], "provenance": "observed", "query_key": "7:77600799:C>T", "ref": "C", "stratum": "hard"}
+{"alt": "C", "chrom": "1", "gene": "ABL2", "hg19_pos": 179078145, "protein_changes": ["T732A", "T738A", "T753A"], "provenance": "observed", "query_key": "1:179109010:T>C", "ref": "T", "stratum": "hard"}
+{"alt": "T", "chrom": "15", "gene": "KNL1", "hg19_pos": 40914977, "protein_changes": ["P839S", "P865S"], "provenance": "observed", "query_key": "15:40622779:C>T", "ref": "C", "stratum": "hard"}
+{"alt": "A", "chrom": "12", "gene": "SPATS2", "hg19_pos": 49919998, "protein_changes": ["R533H"], "provenance": "observed", "query_key": "12:49526215:G>A", "ref": "G", "stratum": "hard"}
+{"alt": "A", "chrom": "2", "gene": "MSH6", "hg19_pos": 48033459, "protein_changes": ["D1125N", "D1255N", "D953N"], "provenance": "observed", "query_key": "2:47806320:G>A", "ref": "G", "stratum": "hard"}
+{"alt": "G", "chrom": "20", "gene": "PLCG1", "hg19_pos": 39794412, "protein_changes": ["S582C"], "provenance": "observed", "query_key": "20:41165772:C>G", "ref": "C", "stratum": "hard"}
+{"alt": "T", "chrom": "19", "gene": "CIC", "hg19_pos": 42778619, "protein_changes": ["P895L"], "provenance": "observed", "query_key": "19:42274467:C>T", "ref": "C", "stratum": "hard"}
+{"alt": "G", "chrom": "19", "gene": "DLL3", "hg19_pos": 39998053, "protein_changes": ["R490G"], "provenance": "observed", "query_key": "19:39507413:C>G", "ref": "C", "stratum": "hard"}
+{"alt": "G", "chrom": "1", "gene": "PAPPA2", "hg19_pos": 176681094, "protein_changes": ["K1259E"], "provenance": "observed", "query_key": "1:176711958:A>G", "ref": "A", "stratum": "hard"}
+{"alt": "C", "chrom": "1", "gene": "MACF1", "hg19_pos": 39895594, "protein_changes": ["E3600Q", "E4102Q", "E5558Q", "E5662Q", "E5699Q"], "provenance": "observed", "query_key": "1:39429922:G>C", "ref": "G", "stratum": "hard"}
+{"alt": "A", "chrom": "4", "gene": "AREG", "hg19_pos": 75316225, "protein_changes": ["T214K"], "provenance": "observed", "query_key": "4:74450508:C>A", "ref": "C", "stratum": "hard"}
+{"alt": "T", "chrom": "15", "gene": "KNL1", "hg19_pos": 40914978, "protein_changes": ["P839L", "P865L"], "provenance": "observed", "query_key": "15:40622780:C>T", "ref": "C", "stratum": "hard"}
+{"alt": "C", "chrom": "2", "gene": "STAT1", "hg19_pos": 191847220, "protein_changes": ["P491A", "P493A"], "provenance": "observed", "query_key": "2:190982494:G>C", "ref": "G", "stratum": "hard"}
+{"alt": "C", "chrom": "14", "gene": "MIA2", "hg19_pos": 39717087, "protein_changes": ["D437H"], "provenance": "observed", "query_key": "14:39247883:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "5", "gene": "PCDHA2", "hg19_pos": 140175283, "protein_changes": ["S245*", "S245X"], "provenance": "observed", "query_key": "5:140795698:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "5", "gene": "CLPTM1L", "hg19_pos": 1331951, "protein_changes": ["K180N", "K313N"], "provenance": "observed", "query_key": "5:1331836:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "5", "gene": "PRDM9", "hg19_pos": 23521163, "protein_changes": ["S128C", "S69C"], "provenance": "observed", "query_key": "5:23521054:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "6", "gene": "PM20D2", "hg19_pos": 89871956, "protein_changes": ["E429Q"], "provenance": "observed", "query_key": "6:89162237:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "11", "gene": "OR9Q2", "hg19_pos": 57958180, "protein_changes": ["Y73F"], "provenance": "observed", "query_key": "11:58190708:A>T", "ref": "A", "stratum": "easy"}
+{"alt": "A", "chrom": "22", "gene": "PKDREJ", "hg19_pos": 46653596, "protein_changes": ["T1875I"], "provenance": "observed", "query_key": "22:46257699:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "6", "gene": "FABP7", "hg19_pos": 123102385, "protein_changes": ["P132A"], "provenance": "observed", "query_key": "6:122781240:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "22", "gene": "ACO2", "hg19_pos": 41920895, "protein_changes": ["E510Q", "E535Q"], "provenance": "observed", "query_key": "22:41524891:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "C", "chrom": "15", "gene": "TMEM62", "hg19_pos": 43441335, "protein_changes": ["W284C"], "provenance": "observed", "query_key": "15:43149137:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "8", "gene": "VIRMA", "hg19_pos": 95556163, "protein_changes": ["S24F"], "provenance": "observed", "query_key": "8:94543935:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "3", "gene": "ITGA9", "hg19_pos": 37860445, "protein_changes": ["E1025*", "E1025X"], "provenance": "observed", "query_key": "3:37818954:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "C", "chrom": "2", "gene": "PSME4", "hg19_pos": 54128522, "protein_changes": ["H1084D"], "provenance": "observed", "query_key": "2:53901385:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "3", "gene": "XIRP1", "hg19_pos": 39229606, "protein_changes": ["L444H"], "provenance": "observed", "query_key": "3:39188115:A>T", "ref": "A", "stratum": "easy"}
+{"alt": "A", "chrom": "19", "gene": "MUC16", "hg19_pos": 9066660, "protein_changes": ["S6929F"], "provenance": "observed", "query_key": "19:8955984:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "2", "gene": "DAW1", "hg19_pos": 228758579, "protein_changes": ["T129M"], "provenance": "observed", "query_key": "2:227893863:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "2", "gene": "TEKT4", "hg19_pos": 95540621, "protein_changes": ["C272S"], "provenance": "observed", "query_key": "2:94874876:T>A", "ref": "T", "stratum": "easy"}
+{"alt": "A", "chrom": "1", "gene": "MAP7D1", "hg19_pos": 36642048, "protein_changes": ["A330T", "A335T", "A367T"], "provenance": "observed", "query_key": "1:36176447:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "17", "gene": "KIF1C", "hg19_pos": 4910342, "protein_changes": ["S433F"], "provenance": "observed", "query_key": "17:5007047:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "20", "gene": "TRMT6", "hg19_pos": 5924604, "protein_changes": ["G178*", "G178X", "G8*", "G8X"], "provenance": "observed", "query_key": "20:5943958:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "12", "gene": "LDHB", "hg19_pos": 21807476, "protein_changes": [], "provenance": "observed", "query_key": "12:21654542:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "2", "gene": "ZFAND2B", "hg19_pos": 220072982, "protein_changes": ["A103P", "A147P"], "provenance": "observed", "query_key": "2:219208260:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "1", "gene": "SCYL3", "hg19_pos": 169857977, "protein_changes": ["G2A"], "provenance": "observed", "query_key": "1:169888836:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "19", "gene": "UNC13A", "hg19_pos": 17753656, "protein_changes": ["E822K", "E824K"], "provenance": "observed", "query_key": "19:17642847:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "18", "gene": "ARHGAP28", "hg19_pos": 6824790, "protein_changes": ["N16T", "N24T", "N51T"], "provenance": "observed", "query_key": "18:6824791:A>C", "ref": "A", "stratum": "easy"}
+{"alt": "G", "chrom": "10", "gene": "BEND7", "hg19_pos": 13523024, "protein_changes": ["R17T", "R261T", "R274T"], "provenance": "observed", "query_key": "10:13481024:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "2", "gene": "CYBRD1", "hg19_pos": 172411038, "protein_changes": ["D130N", "D149N", "D188N"], "provenance": "observed", "query_key": "2:171554528:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "1", "gene": "STX12", "hg19_pos": 28120118, "protein_changes": ["P88R"], "provenance": "observed", "query_key": "1:27793607:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "16", "gene": "ZKSCAN2", "hg19_pos": 25258259, "protein_changes": ["E420K"], "provenance": "observed", "query_key": "16:25246938:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "15", "gene": "HDDC3", "hg19_pos": 91474781, "protein_changes": ["I139V"], "provenance": "observed", "query_key": "15:90931551:T>C", "ref": "T", "stratum": "easy"}
+{"alt": "A", "chrom": "8", "gene": "SCRIB", "hg19_pos": 144887512, "protein_changes": ["E111*", "E733*", "E733X", "E814*", "E814X"], "provenance": "observed", "query_key": "8:143805342:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "14", "gene": "SERPINA1", "hg19_pos": 94849245, "protein_changes": ["E110D", "E24D"], "provenance": "observed", "query_key": "14:94382908:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "14", "gene": "SYNE3", "hg19_pos": 95934259, "protein_changes": ["V64M"], "provenance": "observed", "query_key": "14:95467922:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "7", "gene": "BAZ1B", "hg19_pos": 72883966, "protein_changes": ["S916*", "S916X"], "provenance": "observed", "query_key": "7:73469636:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "8", "gene": "MROH6", "hg19_pos": 144654686, "protein_changes": ["A67T"], "provenance": "observed", "query_key": "8:143572516:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "11", "gene": "ZBTB3", "hg19_pos": 62519923, "protein_changes": ["S455F"], "provenance": "observed", "query_key": "11:62752451:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "C", "chrom": "19", "gene": "TPM4", "hg19_pos": 16204509, "protein_changes": ["E182Q", "E203Q", "E204Q", "E240Q"], "provenance": "observed", "query_key": "19:16093699:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "2", "gene": "OTOF", "hg19_pos": 26680996, "protein_changes": ["I1202T", "I1969T"], "provenance": "observed", "query_key": "2:26458128:A>G", "ref": "A", "stratum": "easy"}
+{"alt": "G", "chrom": "5", "gene": "MAML1", "hg19_pos": 179160120, "protein_changes": ["L3V"], "provenance": "observed", "query_key": "5:179733119:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "6", "gene": "UTRN", "hg19_pos": 145110345, "protein_changes": ["K2950N", "K505N"], "provenance": "observed", "query_key": "6:144789209:A>T", "ref": "A", "stratum": "easy"}
+{"alt": "T", "chrom": "19", "gene": "SHISA7", "hg19_pos": 55952008, "protein_changes": ["L266I"], "provenance": "observed", "query_key": "19:55440641:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "C", "chrom": "7", "gene": "MBLAC1", "hg19_pos": 99725196, "protein_changes": ["E60Q"], "provenance": "observed", "query_key": "7:100127573:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "7", "gene": "MNX1", "hg19_pos": 156798246, "protein_changes": ["P180S", "P392S"], "provenance": "observed", "query_key": "7:157005552:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "9", "gene": "FKTN", "hg19_pos": 108370127, "protein_changes": ["D225E"], "provenance": "observed", "query_key": "9:105607846:T>A", "ref": "T", "stratum": "easy"}
+{"alt": "A", "chrom": "1", "gene": "MAP7D1", "hg19_pos": 36645329, "protein_changes": ["E727K", "E732K", "E765K"], "provenance": "observed", "query_key": "1:36179728:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "12", "gene": "AC011604.2", "hg19_pos": 21229393, "protein_changes": ["I538M", "I585M", "I646M"], "provenance": "observed", "query_key": "12:21076459:T>G", "ref": "T", "stratum": "easy"}
+{"alt": "C", "chrom": "18", "gene": "ZNF519", "hg19_pos": 14106118, "protein_changes": ["P141A"], "provenance": "observed", "query_key": "18:14106119:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "10", "gene": "ZNF25", "hg19_pos": 38246429, "protein_changes": ["E21K"], "provenance": "observed", "query_key": "10:37957501:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "18", "gene": "MC4R", "hg19_pos": 58038973, "protein_changes": ["M204L"], "provenance": "observed", "query_key": "18:60371740:T>G", "ref": "T", "stratum": "easy"}
+{"alt": "C", "chrom": "4", "gene": "DCHS2", "hg19_pos": 155157325, "protein_changes": ["I2371V", "I2827V"], "provenance": "observed", "query_key": "4:154236173:T>C", "ref": "T", "stratum": "easy"}
+{"alt": "A", "chrom": "2", "gene": "ACOXL", "hg19_pos": 111691074, "protein_changes": ["G143E", "G305E"], "provenance": "observed", "query_key": "2:110933497:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "5", "gene": "AHRR", "hg19_pos": 432577, "protein_changes": [], "provenance": "observed", "query_key": "5:432462:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "C", "chrom": "12", "gene": "CCNT1", "hg19_pos": 49086903, "protein_changes": ["I698M"], "provenance": "observed", "query_key": "12:48693120:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "10", "gene": "PYROXD2", "hg19_pos": 100174886, "protein_changes": ["A3P"], "provenance": "observed", "query_key": "10:98415129:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "5", "gene": "TXNDC15", "hg19_pos": 134229332, "protein_changes": ["S248P"], "provenance": "observed", "query_key": "5:134893642:T>C", "ref": "T", "stratum": "easy"}
+{"alt": "T", "chrom": "15", "gene": "GALK2", "hg19_pos": 49574268, "protein_changes": ["A173S", "A186S", "A197S"], "provenance": "observed", "query_key": "15:49282071:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "11", "gene": "CEP295", "hg19_pos": 93432318, "protein_changes": ["E1414K"], "provenance": "observed", "query_key": "11:93699152:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "2", "gene": "TTN", "hg19_pos": 179425514, "protein_changes": ["D19384N", "D19509N", "D19576N", "D25881N", "D26808N", "D28449N"], "provenance": "observed", "query_key": "2:178560787:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "2", "gene": "USP34", "hg19_pos": 61575420, "protein_changes": ["D624H"], "provenance": "observed", "query_key": "2:61348285:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "20", "gene": "TTI1", "hg19_pos": 36625234, "protein_changes": ["P972L"], "provenance": "observed", "query_key": "20:37996832:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "11", "gene": "APBB1", "hg19_pos": 6432094, "protein_changes": ["E162K"], "provenance": "observed", "query_key": "11:6410864:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "3", "gene": "TOPAZ1", "hg19_pos": 44283550, "protein_changes": ["R2Q"], "provenance": "observed", "query_key": "3:44242058:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "12", "gene": "PTPRQ", "hg19_pos": 80889013, "protein_changes": ["S582Y", "S624Y"], "provenance": "observed", "query_key": "12:80495234:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "9", "gene": "PTBP3", "hg19_pos": 115038267, "protein_changes": ["K21E", "K49E", "K52E", "K55E"], "provenance": "observed", "query_key": "9:112275987:T>C", "ref": "T", "stratum": "easy"}
+{"alt": "A", "chrom": "19", "gene": "ZNF490", "hg19_pos": 12691762, "protein_changes": ["S376F"], "provenance": "observed", "query_key": "19:12580948:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "1", "gene": "NFASC", "hg19_pos": 204955231, "protein_changes": ["T906S", "T914S", "T923S"], "provenance": "observed", "query_key": "1:204986103:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "2", "gene": "SPEG", "hg19_pos": 220336647, "protein_changes": ["Y1258C"], "provenance": "observed", "query_key": "2:219471925:A>G", "ref": "A", "stratum": "easy"}
+{"alt": "C", "chrom": "6", "gene": "IMPG1", "hg19_pos": 76782192, "protein_changes": ["T5S"], "provenance": "observed", "query_key": "6:76072475:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "11", "gene": "OR5AN1", "hg19_pos": 59132032, "protein_changes": ["V34E"], "provenance": "observed", "query_key": "11:59364559:T>A", "ref": "T", "stratum": "easy"}
+{"alt": "A", "chrom": "1", "gene": "CLCA2", "hg19_pos": 86919157, "protein_changes": ["G754E"], "provenance": "observed", "query_key": "1:86453474:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "8", "gene": "C8ORF76", "hg19_pos": 124232487, "protein_changes": ["E333D"], "provenance": "observed", "query_key": "8:123220247:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "8", "gene": "KCNQ3", "hg19_pos": 133153490, "protein_changes": ["D330H", "D331H", "D342H", "D451H"], "provenance": "observed", "query_key": "8:132141243:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "8", "gene": "ADGRB1", "hg19_pos": 143592373, "protein_changes": ["T916R", "T919R"], "provenance": "observed", "query_key": "8:142511012:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "8", "gene": "NSMCE2", "hg19_pos": 126114653, "protein_changes": ["L27F"], "provenance": "observed", "query_key": "8:125102411:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "14", "gene": "LTB4R2", "hg19_pos": 24780901, "protein_changes": ["D344V", "D375V"], "provenance": "observed", "query_key": "14:24311695:A>T", "ref": "A", "stratum": "easy"}
+{"alt": "T", "chrom": "14", "gene": "SERPINA9", "hg19_pos": 94929569, "protein_changes": ["T241N", "T290N", "T292N", "T372N", "T390N"], "provenance": "observed", "query_key": "14:94463232:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "17", "gene": "SDK2", "hg19_pos": 71384017, "protein_changes": ["S1451*", "S1451X", "S627*"], "provenance": "observed", "query_key": "17:73387878:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "C", "chrom": "8", "gene": "SCRIB", "hg19_pos": 144887484, "protein_changes": ["V120G", "V742G", "V823G"], "provenance": "observed", "query_key": "8:143805314:A>C", "ref": "A", "stratum": "easy"}
+{"alt": "T", "chrom": "13", "gene": "ATP8A2", "hg19_pos": 26116076, "protein_changes": ["D184V", "D224V"], "provenance": "observed", "query_key": "13:25541938:A>T", "ref": "A", "stratum": "easy"}
+{"alt": "C", "chrom": "2", "gene": "XDH", "hg19_pos": 31588927, "protein_changes": ["R791G"], "provenance": "observed", "query_key": "2:31366061:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "7", "gene": "PPP1R3A", "hg19_pos": 113519787, "protein_changes": ["P133T", "P454T"], "provenance": "observed", "query_key": "7:113879732:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "20", "gene": "TGM3", "hg19_pos": 2293604, "protein_changes": ["R201C"], "provenance": "observed", "query_key": "20:2312958:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "7", "gene": "CASP2", "hg19_pos": 142991858, "protein_changes": ["T247P"], "provenance": "observed", "query_key": "7:143294765:A>C", "ref": "A", "stratum": "easy"}
+{"alt": "A", "chrom": "1", "gene": "TBX19", "hg19_pos": 168269700, "protein_changes": ["Q236K"], "provenance": "observed", "query_key": "1:168300462:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "16", "gene": "DNAJA3", "hg19_pos": 4504856, "protein_changes": ["E462*", "E462X"], "provenance": "observed", "query_key": "16:4454855:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "C", "chrom": "1", "gene": "RGL1", "hg19_pos": 183849845, "protein_changes": ["Y174S", "Y209S"], "provenance": "observed", "query_key": "1:183880711:A>C", "ref": "A", "stratum": "easy"}
+{"alt": "A", "chrom": "3", "gene": "SCN10A", "hg19_pos": 38793761, "protein_changes": ["E568D"], "provenance": "observed", "query_key": "3:38752270:T>A", "ref": "T", "stratum": "easy"}
+{"alt": "A", "chrom": "3", "gene": "ABCC5", "hg19_pos": 183732107, "protein_changes": ["S25I"], "provenance": "observed", "query_key": "3:184014319:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "1", "gene": "QSOX1", "hg19_pos": 180165441, "protein_changes": ["P505T"], "provenance": "observed", "query_key": "1:180196306:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "5", "gene": "ARL15", "hg19_pos": 53606265, "protein_changes": ["Y15*", "Y15X"], "provenance": "observed", "query_key": "5:54310435:A>T", "ref": "A", "stratum": "easy"}
+{"alt": "G", "chrom": "2", "gene": "DYSF", "hg19_pos": 71838634, "protein_changes": ["L1336V", "L1349V", "L1350V", "L1366V", "L1367V", "L1380V", "L1381V"], "provenance": "observed", "query_key": "2:71611504:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "11", "gene": "APLP2", "hg19_pos": 129993562, "protein_changes": ["W326C", "W336C"], "provenance": "observed", "query_key": "11:130123667:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "2", "gene": "SPR", "hg19_pos": 73114824, "protein_changes": ["R88Q"], "provenance": "observed", "query_key": "2:72887695:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "11", "gene": "EHBP1L1", "hg19_pos": 65351034, "protein_changes": ["S964F"], "provenance": "observed", "query_key": "11:65583563:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "7", "gene": "CACNA2D1", "hg19_pos": 81596979, "protein_changes": ["V799A", "V811A"], "provenance": "observed", "query_key": "7:81967663:A>G", "ref": "A", "stratum": "easy"}
+{"alt": "G", "chrom": "10", "gene": "JAKMIP3", "hg19_pos": 133976881, "protein_changes": ["R795G"], "provenance": "observed", "query_key": "10:132163377:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "5", "gene": "TRIO", "hg19_pos": 14507244, "protein_changes": ["R2876C", "R375C"], "provenance": "observed", "query_key": "5:14507135:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "19", "gene": "SLC35E1", "hg19_pos": 16683100, "protein_changes": ["E26Q", "E6Q"], "provenance": "observed", "query_key": "19:16572289:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "19", "gene": "SH2D3A", "hg19_pos": 6755029, "protein_changes": ["E143G", "E265G"], "provenance": "observed", "query_key": "19:6755018:T>C", "ref": "T", "stratum": "easy"}
+{"alt": "T", "chrom": "1", "gene": "MAP10", "hg19_pos": 232941428, "protein_changes": ["P220L"], "provenance": "observed", "query_key": "1:232805682:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "1", "gene": "CROCC", "hg19_pos": 17298913, "protein_changes": ["S2009C"], "provenance": "observed", "query_key": "1:16972418:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "3", "gene": "P4HTM", "hg19_pos": 49038914, "protein_changes": ["I160M"], "provenance": "observed", "query_key": "3:49001481:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "1", "gene": "ITLN1", "hg19_pos": 160846591, "protein_changes": ["G269R"], "provenance": "observed", "query_key": "1:160876801:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "2", "gene": "FER1L5", "hg19_pos": 97355114, "protein_changes": [], "provenance": "observed", "query_key": "2:96689377:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "15", "gene": "ADAMTSL3", "hg19_pos": 84705703, "protein_changes": ["I1645F"], "provenance": "observed", "query_key": "15:84036951:A>T", "ref": "A", "stratum": "easy"}
+{"alt": "C", "chrom": "7", "gene": "POU6F2", "hg19_pos": 39379338, "protein_changes": ["Q195H", "Q203H"], "provenance": "observed", "query_key": "7:39339739:G>C", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "2", "gene": "IQCA1", "hg19_pos": 237300654, "protein_changes": ["E419K", "E460K", "E467K"], "provenance": "observed", "query_key": "2:236392011:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "3", "gene": "MCF2L2", "hg19_pos": 182897471, "protein_changes": ["L1039F"], "provenance": "observed", "query_key": "3:183179683:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "1", "gene": "ADAM30", "hg19_pos": 120438559, "protein_changes": ["R134Q"], "provenance": "observed", "query_key": "1:119895936:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "1", "gene": "C1QB", "hg19_pos": 22987484, "protein_changes": ["A121T", "A123T"], "provenance": "observed", "query_key": "1:22660991:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "14", "gene": "AKAP6", "hg19_pos": 33069997, "protein_changes": ["K910M"], "provenance": "observed", "query_key": "14:32600791:A>T", "ref": "A", "stratum": "easy"}
+{"alt": "A", "chrom": "12", "gene": "EP400", "hg19_pos": 132537961, "protein_changes": ["P2516Q"], "provenance": "observed", "query_key": "12:132053416:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "7", "gene": "HOXA4", "hg19_pos": 27170243, "protein_changes": ["G37D"], "provenance": "observed", "query_key": "7:27130624:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "2", "gene": "DNAH7", "hg19_pos": 196891665, "protein_changes": [], "provenance": "observed", "query_key": "2:196026941:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "4", "gene": "NSUN7", "hg19_pos": 40810826, "protein_changes": ["Y676C"], "provenance": "observed", "query_key": "4:40808809:A>G", "ref": "A", "stratum": "easy"}
+{"alt": "T", "chrom": "13", "gene": "SLC25A30", "hg19_pos": 45973144, "protein_changes": ["M177I", "M228I"], "provenance": "observed", "query_key": "13:45399009:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "3", "gene": "TNIK", "hg19_pos": 170856159, "protein_changes": ["R448S", "R477S"], "provenance": "observed", "query_key": "3:171138370:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "17", "gene": "SOX9", "hg19_pos": 70119856, "protein_changes": ["I286M"], "provenance": "observed", "query_key": "17:72123715:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "12", "gene": "PRDM4", "hg19_pos": 108140051, "protein_changes": [], "provenance": "observed", "query_key": "12:107746274:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "21", "gene": "KRTAP21-1", "hg19_pos": 32127654, "protein_changes": ["G15S"], "provenance": "observed", "query_key": "21:30755336:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "14", "gene": "SERPINA9", "hg19_pos": 94933675, "protein_changes": ["F143L", "F145L", "F207L", "F225L", "F243L", "F94L"], "provenance": "observed", "query_key": "14:94467338:A>G", "ref": "A", "stratum": "easy"}
+{"alt": "T", "chrom": "6", "gene": "SYNE1", "hg19_pos": 152646269, "protein_changes": ["E4879K", "E5132K", "E5203K"], "provenance": "observed", "query_key": "6:152325134:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "19", "gene": "LILRA5", "hg19_pos": 54818988, "protein_changes": ["G241A", "G253A"], "provenance": "observed", "query_key": "19:54307703:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "7", "gene": "PCLO", "hg19_pos": 82545919, "protein_changes": ["D3795Y", "D515Y"], "provenance": "observed", "query_key": "7:82916603:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "14", "gene": "DYNC1H1", "hg19_pos": 102452846, "protein_changes": ["L762V"], "provenance": "observed", "query_key": "14:101986509:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "1", "gene": "AMPD2", "hg19_pos": 110163645, "protein_changes": ["R4S"], "provenance": "observed", "query_key": "1:109621023:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "C", "chrom": "2", "gene": "GRB14", "hg19_pos": 165358805, "protein_changes": ["Q310R", "Q355R"], "provenance": "observed", "query_key": "2:164502295:T>C", "ref": "T", "stratum": "easy"}
+{"alt": "G", "chrom": "11", "gene": "TSPAN4", "hg19_pos": 862687, "protein_changes": ["I3M", "I67M", "I86M"], "provenance": "observed", "query_key": "11:862687:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "13", "gene": "ADPRHL1", "hg19_pos": 114079483, "protein_changes": ["H138N", "H220N"], "provenance": "observed", "query_key": "13:113425168:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "C", "chrom": "11", "gene": "OR5M11", "hg19_pos": 56309923, "protein_changes": ["K271E"], "provenance": "observed", "query_key": "11:56542447:T>C", "ref": "T", "stratum": "easy"}
+{"alt": "A", "chrom": "15", "gene": "DUOX1", "hg19_pos": 45426131, "protein_changes": ["R43K"], "provenance": "observed", "query_key": "15:45133933:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "A", "chrom": "1", "gene": "IGSF3", "hg19_pos": 117127610, "protein_changes": ["Q835H", "Q855H"], "provenance": "observed", "query_key": "1:116584988:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "7", "gene": "ASB10", "hg19_pos": 150878337, "protein_changes": ["D250N", "D265N"], "provenance": "observed", "query_key": "7:151181250:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "22", "gene": "ELFN2", "hg19_pos": 37771018, "protein_changes": ["P186L"], "provenance": "observed", "query_key": "22:37374978:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "8", "gene": "TRIB1", "hg19_pos": 126448613, "protein_changes": ["S109F", "S174F", "S340F"], "provenance": "observed", "query_key": "8:125436371:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "18", "gene": "ADNP2", "hg19_pos": 77896112, "protein_changes": ["R939I"], "provenance": "observed", "query_key": "18:80138229:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "T", "chrom": "2", "gene": "AGPS", "hg19_pos": 178378545, "protein_changes": [], "provenance": "observed", "query_key": "2:177513817:A>T", "ref": "A", "stratum": "easy"}
+{"alt": "T", "chrom": "2", "gene": "TMEM18", "hg19_pos": 669670, "protein_changes": ["M111I", "M114I", "M98I"], "provenance": "observed", "query_key": "2:669670:C>T", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "1", "gene": "SCP2", "hg19_pos": 53427242, "protein_changes": ["A111D", "A131D", "A155D", "A74D"], "provenance": "observed", "query_key": "1:52961570:C>A", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "2", "gene": "RMDN2", "hg19_pos": 38179364, "protein_changes": ["S336T"], "provenance": "observed", "query_key": "2:37952221:T>A", "ref": "T", "stratum": "easy"}
+{"alt": "G", "chrom": "17", "gene": "NUFIP2", "hg19_pos": 27613078, "protein_changes": ["R645T"], "provenance": "observed", "query_key": "17:29286060:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "15", "gene": "CCDC33", "hg19_pos": 74573010, "protein_changes": ["M297I"], "provenance": "observed", "query_key": "15:74280669:G>T", "ref": "G", "stratum": "easy"}
+{"alt": "G", "chrom": "19", "gene": "RANBP3", "hg19_pos": 5928092, "protein_changes": ["E106Q", "E161Q", "E166Q", "E229Q", "E234Q"], "provenance": "observed", "query_key": "19:5928081:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "1", "gene": "WDR78", "hg19_pos": 67299689, "protein_changes": ["G392R", "G626R"], "provenance": "observed", "query_key": "1:66834006:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "G", "chrom": "19", "gene": "CPAMD8", "hg19_pos": 17007416, "protein_changes": ["R118P", "R1756P"], "provenance": "observed", "query_key": "19:16896605:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "A", "chrom": "6", "gene": "CEP85L", "hg19_pos": 118812937, "protein_changes": ["S348F", "S450F", "S453F"], "provenance": "observed", "query_key": "6:118491774:G>A", "ref": "G", "stratum": "easy"}
+{"alt": "C", "chrom": "16", "gene": "ZSCAN32", "hg19_pos": 3433670, "protein_changes": ["W137G", "W214G", "W426G"], "provenance": "observed", "query_key": "16:3383670:A>C", "ref": "A", "stratum": "easy"}
+{"alt": "C", "chrom": "4", "gene": "ZNF721", "hg19_pos": 435857, "protein_changes": ["K788R", "K800R"], "provenance": "observed", "query_key": "4:442068:T>C", "ref": "T", "stratum": "easy"}
+{"alt": "G", "chrom": "22", "gene": "GGA1", "hg19_pos": 38027028, "protein_changes": ["P397A", "P411A", "P484A", "P501A"], "provenance": "observed", "query_key": "22:37631021:C>G", "ref": "C", "stratum": "easy"}
+{"alt": "T", "chrom": "21", "gene": "NCAM2", "hg19_pos": 22790865, "protein_changes": ["Q468*", "Q468X", "Q486*", "Q486X"], "provenance": "observed", "query_key": "21:21418545:C>T", "ref": "C", "stratum": "easy"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["C358G"], "provenance": "constructed", "query_key": "DDR2:p.C358G", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["F2122S"], "provenance": "constructed", "query_key": "ROS1:p.F2122S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["R124C"], "provenance": "constructed", "query_key": "SPOP:p.R124C", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["A48H"], "provenance": "constructed", "query_key": "SPOP:p.A48H", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["A1026R"], "provenance": "constructed", "query_key": "MSH6:p.A1026R", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["H2652K"], "provenance": "constructed", "query_key": "ABCB1:p.H2652K", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["K594R"], "provenance": "constructed", "query_key": "DDR2:p.K594R", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["M562Q"], "provenance": "constructed", "query_key": "DDR2:p.M562Q", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["R847G"], "provenance": "constructed", "query_key": "MSH6:p.R847G", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["Y575A"], "provenance": "constructed", "query_key": "JAK3:p.Y575A", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["H2830E"], "provenance": "constructed", "query_key": "ABCB1:p.H2830E", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["E1658A"], "provenance": "constructed", "query_key": "ABCB1:p.E1658A", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["R1103T"], "provenance": "constructed", "query_key": "MSH6:p.R1103T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["G473F"], "provenance": "constructed", "query_key": "JAK3:p.G473F", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["C233N"], "provenance": "constructed", "query_key": "JAK3:p.C233N", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["M254H"], "provenance": "constructed", "query_key": "JAK3:p.M254H", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["E610M"], "provenance": "constructed", "query_key": "DDR2:p.E610M", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["W320Q"], "provenance": "constructed", "query_key": "MSH6:p.W320Q", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["E127R"], "provenance": "constructed", "query_key": "SPOP:p.E127R", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["E100F"], "provenance": "constructed", "query_key": "SPOP:p.E100F", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["H1937I"], "provenance": "constructed", "query_key": "ABCB1:p.H1937I", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["C878N"], "provenance": "constructed", "query_key": "MSH6:p.C878N", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["S65T"], "provenance": "constructed", "query_key": "SPOP:p.S65T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["H101A"], "provenance": "constructed", "query_key": "SPOP:p.H101A", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["G3172M"], "provenance": "constructed", "query_key": "ABCB1:p.G3172M", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["I2109S"], "provenance": "constructed", "query_key": "ROS1:p.I2109S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["Y2036I"], "provenance": "constructed", "query_key": "ROS1:p.Y2036I", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["Y2127V"], "provenance": "constructed", "query_key": "ROS1:p.Y2127V", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["Y231W"], "provenance": "constructed", "query_key": "JAK3:p.Y231W", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["F2152P"], "provenance": "constructed", "query_key": "ROS1:p.F2152P", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["P2629N"], "provenance": "constructed", "query_key": "ABCB1:p.P2629N", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["P74L"], "provenance": "constructed", "query_key": "SPOP:p.P74L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["S474K"], "provenance": "constructed", "query_key": "DDR2:p.S474K", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["G723V"], "provenance": "constructed", "query_key": "DDR2:p.G723V", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["D1126G"], "provenance": "constructed", "query_key": "ABCB1:p.D1126G", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["D187H"], "provenance": "constructed", "query_key": "JAK3:p.D187H", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["H2112L"], "provenance": "constructed", "query_key": "ROS1:p.H2112L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["C1230P"], "provenance": "constructed", "query_key": "MSH6:p.C1230P", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["D2129S"], "provenance": "constructed", "query_key": "ROS1:p.D2129S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["D101E"], "provenance": "constructed", "query_key": "DDR2:p.D101E", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["W2134D"], "provenance": "constructed", "query_key": "ROS1:p.W2134D", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["S305F"], "provenance": "constructed", "query_key": "MSH6:p.S305F", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["F602S"], "provenance": "constructed", "query_key": "JAK3:p.F602S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["W181H"], "provenance": "constructed", "query_key": "MSH6:p.W181H", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["T130V"], "provenance": "constructed", "query_key": "JAK3:p.T130V", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["V1673P"], "provenance": "constructed", "query_key": "ABCB1:p.V1673P", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["R252W"], "provenance": "constructed", "query_key": "MSH6:p.R252W", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["Y3362C"], "provenance": "constructed", "query_key": "ABCB1:p.Y3362C", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["I96D"], "provenance": "constructed", "query_key": "SPOP:p.I96D", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["S83Q"], "provenance": "constructed", "query_key": "SPOP:p.S83Q", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["C533H"], "provenance": "constructed", "query_key": "MSH6:p.C533H", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["Q386D"], "provenance": "constructed", "query_key": "DDR2:p.Q386D", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["Y2116N"], "provenance": "constructed", "query_key": "ROS1:p.Y2116N", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["S327K"], "provenance": "constructed", "query_key": "JAK3:p.S327K", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["Q139D"], "provenance": "constructed", "query_key": "SPOP:p.Q139D", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["L402A"], "provenance": "constructed", "query_key": "DDR2:p.L402A", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["A1412T"], "provenance": "constructed", "query_key": "ABCB1:p.A1412T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["G98A"], "provenance": "constructed", "query_key": "JAK3:p.G98A", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["E3238L"], "provenance": "constructed", "query_key": "ABCB1:p.E3238L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["V3260E"], "provenance": "constructed", "query_key": "ABCB1:p.V3260E", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["K90L"], "provenance": "constructed", "query_key": "SPOP:p.K90L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["C527W"], "provenance": "constructed", "query_key": "DDR2:p.C527W", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["R661K"], "provenance": "constructed", "query_key": "JAK3:p.R661K", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["D2126T"], "provenance": "constructed", "query_key": "ABCB1:p.D2126T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["N589G"], "provenance": "constructed", "query_key": "JAK3:p.N589G", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["C504T"], "provenance": "constructed", "query_key": "JAK3:p.C504T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["M2081G"], "provenance": "constructed", "query_key": "ROS1:p.M2081G", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["N2110A"], "provenance": "constructed", "query_key": "ROS1:p.N2110A", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["T295K"], "provenance": "constructed", "query_key": "JAK3:p.T295K", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["L2147K"], "provenance": "constructed", "query_key": "ROS1:p.L2147K", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["R111C"], "provenance": "constructed", "query_key": "JAK3:p.R111C", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["H420N"], "provenance": "constructed", "query_key": "JAK3:p.H420N", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["K747S"], "provenance": "constructed", "query_key": "MSH6:p.K747S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["T3000I"], "provenance": "constructed", "query_key": "ABCB1:p.T3000I", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["Q104K"], "provenance": "constructed", "query_key": "SPOP:p.Q104K", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["G684T"], "provenance": "constructed", "query_key": "MSH6:p.G684T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["I2079D"], "provenance": "constructed", "query_key": "ROS1:p.I2079D", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["K281P"], "provenance": "constructed", "query_key": "DDR2:p.K281P", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["G493C"], "provenance": "constructed", "query_key": "MSH6:p.G493C", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["S2051W"], "provenance": "constructed", "query_key": "ROS1:p.S2051W", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["E335I"], "provenance": "constructed", "query_key": "DDR2:p.E335I", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["L2218I"], "provenance": "constructed", "query_key": "ABCB1:p.L2218I", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["S2073T"], "provenance": "constructed", "query_key": "ROS1:p.S2073T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["N724Q"], "provenance": "constructed", "query_key": "DDR2:p.N724Q", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["A1018I"], "provenance": "constructed", "query_key": "MSH6:p.A1018I", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["M870F"], "provenance": "constructed", "query_key": "MSH6:p.M870F", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["Q1187W"], "provenance": "constructed", "query_key": "MSH6:p.Q1187W", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["R131M"], "provenance": "constructed", "query_key": "SPOP:p.R131M", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["H358V"], "provenance": "constructed", "query_key": "MSH6:p.H358V", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["R2066T"], "provenance": "constructed", "query_key": "ROS1:p.R2066T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["K2103F"], "provenance": "constructed", "query_key": "ROS1:p.K2103F", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["C1780L"], "provenance": "constructed", "query_key": "ABCB1:p.C1780L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["Y78H"], "provenance": "constructed", "query_key": "SPOP:p.Y78H", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["Q2087E"], "provenance": "constructed", "query_key": "ROS1:p.Q2087E", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["P490N"], "provenance": "constructed", "query_key": "JAK3:p.P490N", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["K210R"], "provenance": "constructed", "query_key": "JAK3:p.K210R", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["T125R"], "provenance": "constructed", "query_key": "SPOP:p.T125R", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["M95C"], "provenance": "constructed", "query_key": "SPOP:p.M95C", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["W381E"], "provenance": "constructed", "query_key": "JAK3:p.W381E", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["L133T"], "provenance": "constructed", "query_key": "SPOP:p.L133T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["I659L"], "provenance": "constructed", "query_key": "JAK3:p.I659L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["D67S"], "provenance": "constructed", "query_key": "SPOP:p.D67S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["N459K"], "provenance": "constructed", "query_key": "MSH6:p.N459K", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["E493Y"], "provenance": "constructed", "query_key": "MSH6:p.E493Y", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["G600H"], "provenance": "constructed", "query_key": "DDR2:p.G600H", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["L110M"], "provenance": "constructed", "query_key": "SPOP:p.L110M", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["Y1524I"], "provenance": "constructed", "query_key": "ABCB1:p.Y1524I", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["K1511Y"], "provenance": "constructed", "query_key": "ABCB1:p.K1511Y", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["D728W"], "provenance": "constructed", "query_key": "DDR2:p.D728W", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["I473C"], "provenance": "constructed", "query_key": "JAK3:p.I473C", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["E423Y"], "provenance": "constructed", "query_key": "JAK3:p.E423Y", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["F1064L"], "provenance": "constructed", "query_key": "MSH6:p.F1064L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["A395F"], "provenance": "constructed", "query_key": "DDR2:p.A395F", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["L224R"], "provenance": "constructed", "query_key": "JAK3:p.L224R", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["M246L"], "provenance": "constructed", "query_key": "JAK3:p.M246L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["Y1085L"], "provenance": "constructed", "query_key": "MSH6:p.Y1085L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["C66V"], "provenance": "constructed", "query_key": "SPOP:p.C66V", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["V1867D"], "provenance": "constructed", "query_key": "ABCB1:p.V1867D", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["D304K"], "provenance": "constructed", "query_key": "JAK3:p.D304K", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["T414E"], "provenance": "constructed", "query_key": "DDR2:p.T414E", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["H1048T"], "provenance": "constructed", "query_key": "MSH6:p.H1048T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["F693V"], "provenance": "constructed", "query_key": "JAK3:p.F693V", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["N58W"], "provenance": "constructed", "query_key": "SPOP:p.N58W", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["P102W"], "provenance": "constructed", "query_key": "SPOP:p.P102W", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["P2141S"], "provenance": "constructed", "query_key": "ABCB1:p.P2141S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["S2068Q"], "provenance": "constructed", "query_key": "ROS1:p.S2068Q", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["R1160M"], "provenance": "constructed", "query_key": "MSH6:p.R1160M", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["W751S"], "provenance": "constructed", "query_key": "DDR2:p.W751S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["N704E"], "provenance": "constructed", "query_key": "JAK3:p.N704E", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["V243H"], "provenance": "constructed", "query_key": "JAK3:p.V243H", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["M95S"], "provenance": "constructed", "query_key": "SPOP:p.M95S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["K2060F"], "provenance": "constructed", "query_key": "ROS1:p.K2060F", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["C2043I"], "provenance": "constructed", "query_key": "ROS1:p.C2043I", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["Y2043P"], "provenance": "constructed", "query_key": "ROS1:p.Y2043P", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["K312N"], "provenance": "constructed", "query_key": "MSH6:p.K312N", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["S441A"], "provenance": "constructed", "query_key": "JAK3:p.S441A", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["C420P"], "provenance": "constructed", "query_key": "DDR2:p.C420P", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "SPOP", "hg19_pos": null, "protein_changes": ["A58L"], "provenance": "constructed", "query_key": "SPOP:p.A58L", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["R2132G"], "provenance": "constructed", "query_key": "ROS1:p.R2132G", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["H1797Q"], "provenance": "constructed", "query_key": "ABCB1:p.H1797Q", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["Y1047D"], "provenance": "constructed", "query_key": "ABCB1:p.Y1047D", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["F855P"], "provenance": "constructed", "query_key": "MSH6:p.F855P", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ABCB1", "hg19_pos": null, "protein_changes": ["R3251N"], "provenance": "constructed", "query_key": "ABCB1:p.R3251N", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "DDR2", "hg19_pos": null, "protein_changes": ["A249T"], "provenance": "constructed", "query_key": "DDR2:p.A249T", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["T490C"], "provenance": "constructed", "query_key": "MSH6:p.T490C", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["V2136S"], "provenance": "constructed", "query_key": "ROS1:p.V2136S", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["E616Y"], "provenance": "constructed", "query_key": "MSH6:p.E616Y", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "JAK3", "hg19_pos": null, "protein_changes": ["M121Q"], "provenance": "constructed", "query_key": "JAK3:p.M121Q", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "MSH6", "hg19_pos": null, "protein_changes": ["G715W"], "provenance": "constructed", "query_key": "MSH6:p.G715W", "ref": null, "stratum": "hard_constructed"}
+{"alt": null, "chrom": null, "gene": "ROS1", "hg19_pos": null, "protein_changes": ["V2001C"], "provenance": "constructed", "query_key": "ROS1:p.V2001C", "ref": null, "stratum": "hard_constructed"}

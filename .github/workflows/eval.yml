@@ -1,0 +1,68 @@
+name: eval
+
+# Two schedules on purpose.
+#
+# Per-push runs only what is deterministic and free: the tests, the structured
+# and lexical retrieval arms, and the two no-model baselines. These cannot flake
+# and cost nothing, so they can gate a merge.
+#
+# The arms that call Claude run nightly instead. Running a nondeterministic,
+# billed job on every push produces a test that fails randomly and is then
+# switched off -- which is worse than not having it.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+
+jobs:
+  deterministic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pytest
+      - name: Unit tests
+        run: python -m pytest tests -q
+      - name: Rebuild eval sets from the committed snapshot
+        run: python -m eval.build_sets
+      - name: Run the free arms
+        run: |
+          python -m eval.run_eval --backend abstain --out results/ci_abstain.json
+          python -m eval.run_eval --backend echo    --out results/ci_echo.json
+      - name: Check deterministic metrics against committed baselines
+        run: |
+          python scripts/check_regression.py results/ci_abstain.json baselines/abstain.json
+          python scripts/check_regression.py results/ci_echo.json    baselines/echo.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ci-metrics
+          path: results/ci_*.json
+
+  model:
+    # Nightly and manual only. Needs a funded API key; skipped on forks, where
+    # the secret is not available.
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install -r requirements.txt
+      - name: Run the model arms
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python -m eval.build_sets
+          python -m eval.run_eval --backend anthropic --model claude-opus-5 \
+            --out results/nightly.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nightly-metrics
+          path: results/nightly.json
