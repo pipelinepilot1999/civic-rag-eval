@@ -28,6 +28,7 @@ import json
 import os
 import pathlib
 import re
+import threading
 from typing import Protocol, Sequence
 
 from .retrieve import Retrieved
@@ -185,6 +186,15 @@ class EchoBackend:
         )
 
 
+# Published $/MTok, input and output. Used only to report what a run cost --
+# "the eval costs $N" belongs in the README, and a reviewer will ask.
+PRICING = {
+    "claude-opus-5": (5.00, 25.00),
+    "claude-sonnet-5": (2.00, 10.00),
+    "claude-haiku-4-5": (1.00, 5.00),
+}
+
+
 class AnthropicBackend:
     """The real system. Requires ANTHROPIC_API_KEY."""
     name = "anthropic"
@@ -212,18 +222,61 @@ class AnthropicBackend:
         self.model = model
         self.max_tokens = max_tokens
         self.name = f"anthropic:{model}"
+        # run_eval can call generate() from a ThreadPoolExecutor (--workers > 1).
+        # `self.calls += 1` is a read-modify-write and loses increments under
+        # concurrency, which would silently understate the reported cost.
+        self._lock = threading.Lock()
+        self.calls = 0
+        self.input_tokens = 0
+        self.output_tokens = 0
+        self.cached_tokens = 0
+        self.errors = 0
 
     def generate(self, query_text: str, context: str) -> Interpretation:
-        response = self.client.messages.create(
-            model=self.model,
-            max_tokens=self.max_tokens,
-            system=[{"type": "text", "text": SYSTEM_PROMPT,
-                     "cache_control": {"type": "ephemeral"}}],
-            messages=[{"role": "user", "content":
-                       f"VARIANT\n{query_text}\n\nRETRIEVED EVIDENCE\n{context}"}],
-        )
+        import anthropic                                    # noqa: PLC0415
+        try:
+            response = self.client.messages.create(
+                model=self.model,
+                max_tokens=self.max_tokens,
+                system=[{"type": "text", "text": SYSTEM_PROMPT,
+                         "cache_control": {"type": "ephemeral"}}],
+                messages=[{"role": "user", "content":
+                           f"VARIANT\n{query_text}\n\nRETRIEVED EVIDENCE\n{context}"}],
+            )
+        except anthropic.APIStatusError as exc:
+            with self._lock:
+                self.errors += 1
+            # A failed call is a failure of the run, not a missing datapoint. It
+            # is recorded as an unparseable answer so it counts against the
+            # system rather than quietly shrinking the denominator.
+            return Interpretation(
+                significance="UNPARSEABLE", evidence_level=None,
+                therapeutic_implication=None, citations=[], reasoning="",
+                raw="", parse_error=f"{type(exc).__name__}: {exc}",
+            )
+
+        usage = response.usage
+        with self._lock:
+            self.calls += 1
+            self.input_tokens += usage.input_tokens
+            self.output_tokens += usage.output_tokens
+            self.cached_tokens += getattr(usage, "cache_read_input_tokens", 0) or 0
+
         text = "".join(block.text for block in response.content if block.type == "text")
         return parse_response(text)
+
+    def cost_report(self) -> dict:
+        rate_in, rate_out = PRICING.get(self.model, (0.0, 0.0))
+        return {
+            "model": self.model,
+            "calls": self.calls,
+            "errors": self.errors,
+            "input_tokens": self.input_tokens,
+            "output_tokens": self.output_tokens,
+            "cache_read_tokens": self.cached_tokens,
+            "estimated_usd": round(
+                self.input_tokens / 1e6 * rate_in + self.output_tokens / 1e6 * rate_out, 4),
+        }
 
 
 def get_backend(name: str, model: str = "claude-opus-5") -> Backend:

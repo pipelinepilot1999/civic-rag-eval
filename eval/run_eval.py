@@ -336,6 +336,7 @@ def main(argv: list[str] | None = None) -> int:
             "seconds": round(time.time() - started, 1),
         },
         "matcher_coverage": matcher.coverage_report(),
+        "cost": backend.cost_report() if hasattr(backend, "cost_report") else None,
         "arm1_retrieval": arm1,
         "arm3a_assertion_agreement": arm3a,
         "arm3b_leave_one_out_agreement": arm3b,

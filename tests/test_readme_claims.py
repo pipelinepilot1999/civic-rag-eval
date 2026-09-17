@@ -87,3 +87,46 @@ def test_readme_has_no_unfilled_placeholders():
     text = README.read_text()
     assert "0.XX" not in text, "README still contains placeholder numbers"
     assert "TODO" not in text
+
+
+@pytest.mark.skipif(not (ROOT / "results/metrics.json").exists(),
+                    reason="model results absent; run `make eval-real`")
+@pytest.mark.parametrize("filename,label", [
+    ("metrics.json", "Opus 5"),
+    ("metrics_haiku.json", "Haiku 4.5"),
+    ("metrics_echo.json", "echo top-1 (no model)"),
+    ("metrics_abstain.json", "always-abstain (no model)"),
+])
+def test_readme_headline_row_matches_results(filename, label):
+    """Every model row in the headline table must match its results file.
+
+    This test exists because it did not. The Haiku row said 0.340 agreement and
+    27.56 net benefit for a week after the run was rescored to 0.359 / 30.77 --
+    the other README tests covered retrieval, negative controls and matcher
+    coverage, but nothing checked the table the README opens with. Regenerate
+    with `python scripts/results_table.py --write`.
+    """
+    path = ROOT / "results" / filename
+    if not path.exists():
+        pytest.skip(f"{filename} absent")
+    metrics = json.loads(path.read_text())
+    arm = metrics["arm3b_leave_one_out_agreement"]
+    row = next((line for line in README.read_text().splitlines()
+                if line.startswith(f"| {label} |")), None)
+    assert row is not None, f"no headline row for {label!r} in README"
+    cells = [c.strip() for c in row.strip("|").split("|")]
+    assert cells[1] == f"{arm['answer_rate']['point']:.3f}"
+    assert cells[2] == f"{arm['agreement_rate']['point']:.3f}"
+    assert cells[3] == f"{arm['contradiction_rate']['point']:.3f}"
+    assert cells[6] == str(arm["net_benefit_per_100"])
+
+
+def test_readme_tables_are_generated_not_typed():
+    """Every table in the README must sit inside generation markers."""
+    text = README.read_text()
+    import re as _re
+    tables = _re.findall(r"^\|.*\|\n\|[-| ]+\|", text, _re.M)
+    starts = text.count("results:")
+    assert starts >= 2 * len(tables), (
+        f"{len(tables)} tables but only {starts // 2} marked; "
+        "a hand-typed table will drift")

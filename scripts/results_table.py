@@ -4,7 +4,10 @@ The README's numbers are generated, never typed. A hand-copied table drifts from
 the JSON the moment anything is rerun, and a results table that disagrees with
 its own artifacts is worse than no table.
 """
-import json, pathlib, sys
+import json
+import pathlib
+import re
+import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 RUNS = [("Opus 5", "results/metrics.json"),
@@ -91,7 +94,45 @@ def main():
     return parts
 
 
+README = ROOT / "README.md"
+
+
+def write_readme() -> int:
+    """Splice each generated table into README.md, matched by its header row.
+
+    Previously this script only printed and the tables were pasted in by hand --
+    so the Haiku row drifted the moment the run was rescored, and no test caught
+    it. Matching on the header rather than on position means the README's own
+    ordering and the prose between tables are left alone.
+    """
+    text = README.read_text()
+    replaced, missing = 0, []
+    for block in main():
+        header = block.splitlines()[0].strip()
+        pattern = re.compile(
+            r"(<!-- results:\d+:start -->\n)"
+            + re.escape(header)
+            + r"\n\|[-| ]+\|\n(?:\|.*\|\n)+"
+            + r"(<!-- results:\d+:end -->)")
+        match = pattern.search(text)
+        if not match:
+            missing.append(header[:60])
+            continue
+        text = text[:match.start()] + match.group(1) + block.rstrip("\n") + "\n" + match.group(2) + text[match.end():]
+        replaced += 1
+    README.write_text(text)
+    if missing:
+        print("no marked table matched these headers:", file=sys.stderr)
+        for header in missing:
+            print(f"  {header}", file=sys.stderr)
+        return 1
+    print(f"wrote {replaced} tables into README.md")
+    return 0
+
+
 if __name__ == "__main__":
+    if "--write" in sys.argv:
+        raise SystemExit(write_readme())
     for part in main():
         print(part)
         print()

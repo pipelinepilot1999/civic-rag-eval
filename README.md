@@ -18,12 +18,14 @@ Every number below was produced by `make eval`; the tables are generated from
 CIViC snapshot `2026-09-02` · 4,908 evidence items ·
 k=5 · hybrid retriever
 
+<!-- results:0:start -->
 | system | answer rate | agreement | contradiction | confabulation (hard) | citation validity | net benefit /100 |
 |---|---|---|---|---|---|---|
 | Opus 5 | 0.904 | 0.635 | 0.090 | 0.227 | 1.000 | 54.49 |
-| Haiku 4.5 | 0.833 | 0.340 | 0.064 | 0.000 | 1.000 | 27.56 |
+| Haiku 4.5 | 0.833 | 0.359 | 0.051 | 0.000 | 1.000 | 30.77 |
 | echo top-1 (no model) | 1.000 | 0.500 | 0.128 | 0.807 | 1.000 | 37.18 |
 | always-abstain (no model) | 0.000 | 0.000 | 0.000 | 0.000 | n/a | 0.0 |
+<!-- results:0:end -->
 
 **Read the last column first.** Net benefit is (correct − incorrect) per 100
 variants. A system that abstains on everything scores exactly 0 — and scores
@@ -34,10 +36,12 @@ table permanently for exactly that reason.
 
 **Retrieval is what causes confabulation.**
 
+<!-- results:1:start -->
 | model | answer rate (RAG) | answer rate (no RAG) | agreement (RAG) | agreement (no RAG) | confab. hard (RAG) | confab. hard (no RAG) |
 |---|---|---|---|---|---|---|
 | Opus 5 | 0.904 | 0.000 | 0.635 | 0.000 | 0.227 | 0.000 |
-| Haiku 4.5 | 0.833 | 0.000 | 0.340 | 0.000 | 0.000 | 0.000 |
+| Haiku 4.5 | 0.833 | 0.000 | 0.359 | 0.000 | 0.000 | 0.000 |
+<!-- results:1:end -->
 
 With no retrieved context, Opus 5 abstains on 100% of variants and confabulates
 on none. Give it evidence, and it answers 90% of the time at 0.635 agreement —
@@ -55,12 +59,14 @@ project's reason to exist.
 
 ### Negative controls
 
+<!-- results:2:start -->
 | negative stratum (Opus 5) | n | confabulation rate |
 |---|---|---|
 | easy | 150 | 0.000 [0.000, 0.025] |
 | hard | 13 | 0.154 [0.043, 0.422] |
 | hard_constructed | 150 | 0.227 [0.167, 0.300] |
 | pooled_observed_only | 163 | 0.012 [0.003, 0.044] |
+<!-- results:2:end -->
 
 `easy` = the gene has no CIViC presence. `hard` = the gene *is* covered at other
 positions. Opus 5 abstains perfectly on unfamiliar genes and fails only on
@@ -72,6 +78,7 @@ stratum is small and its interval says so.
 
 ### Retrieval
 
+<!-- results:3:start -->
 | retriever | recall@1 | recall@5 | recall@10 | returned nothing |
 |---|---|---|---|---|
 | structured | 0.960 | 0.999 | 1.000 | 0.000 |
@@ -79,6 +86,7 @@ stratum is small and its interval says so.
 | hybrid | 0.960 | 0.999 | 1.000 | 0.000 |
 | dense | 0.366 | 0.566 | 0.632 | 0.000 |
 | hybrid_dense | 0.960 | 0.999 | 1.000 | 0.000 |
+<!-- results:3:end -->
 
 **A dictionary lookup beats the embeddings by 0.59 recall@1**, and the hybrid
 adds nothing on top of the structured tier. Dense retrieval
@@ -96,7 +104,7 @@ the point.
 
 ### Model comparison
 
-Haiku 4.5 never confabulates (0.000 on hard negatives) but reaches only 0.340
+Haiku 4.5 never confabulates (0.000 on hard negatives) but reaches only 0.359
 agreement — *below* the no-model echo baseline's 0.500. Opus 5 is the only
 configuration that beats echo on both agreement and net benefit. Caution and
 capability trade off, and a project reporting one model would have seen neither
