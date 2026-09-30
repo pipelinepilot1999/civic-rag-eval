@@ -47,5 +47,3 @@ clean:
 eval-dense:
 	$(PY) -m eval.run_eval --backend abstain --dense --out results/metrics_dense.json
 
-guide:
-	$(PY) scripts/build_interview_guide.py

@@ -5,7 +5,7 @@ live CIViC GraphQL API and against the actual contents of the author's machines
 before any code was written. Every number below was measured, not assumed.
 
 Two findings would have sunk the project as written. Three more would have
-produced numbers that could not survive an interview question.
+produced numbers that would not survive scrutiny.
 
 ---
 
@@ -116,7 +116,7 @@ These are two different metrics and the spec collapses them into one number.
 
 The honest version of the talking point is "I made *half* of citation checking
 programmatic, and measured how well the automated half proxies the half that
-isn't" — which is a better interview answer than the original claim, because it
+isn't" — which is a stronger claim than the original, because it
 survives follow-up.
 
 ## 4. Arm 3 (contradiction rate) is circular as written
