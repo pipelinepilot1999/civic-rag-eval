@@ -197,5 +197,12 @@ anything.
 ## Data and licence
 
 CIViC content is CC0 (Griffith Lab, Washington University). The SEQC2 HCC1395
-truth set is public via NCBI. Neither is redistributed here — `make ingest` and
-`make data` fetch them.
+truth set is public via NCBI.
+
+The CIViC snapshot **is** committed (`data/snapshots/2026-09-02/`, 10 MB). CIViC is
+CC0, so redistribution is permitted, and committing it is what makes the results
+reproducible: CI rebuilds the eval sets from that exact snapshot, and the Docker
+image copies it in rather than fetching at build time, so the image and the numbers
+always refer to the same corpus. `make ingest` pulls a fresh one under a new date.
+
+The SEQC2 VCFs are **not** committed — they are gitignored and fetched by `make data`.

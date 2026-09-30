@@ -1,6 +1,8 @@
 __pycache__/
 *.pyc
 .env
+.env.*
+!.env.example
 .venv/
 data/cache/
 data/seqc2/*.gz
