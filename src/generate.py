@@ -206,7 +206,7 @@ class AnthropicBackend:
         if not os.environ.get("ANTHROPIC_API_KEY"):
             raise RuntimeError(
                 "ANTHROPIC_API_KEY is not set. Create a key at platform.claude.com "
-                "and put it in .env (see .env.example). A Claude Code subscription "
+                "and put it in .env (see .env.example). A browser-based subscription "
                 "login is a different credential and cannot be used here."
             )
         # Keys created through the Console's "linked account" flow are
